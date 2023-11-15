@@ -1,0 +1,238 @@
+{
+  "nav": [
+    {
+      "nav_name": "Home",
+      "link": "/digital-marketing",
+      "type": "megamenu",
+      "full_width": false,
+      "sub_nav": [
+        {
+          "title": "Agency",
+          "data": [
+            {
+              "name": "Digital Marketing",
+              "link": "/digital-marketing"
+            },
+            {
+              "name": "Design Studio",
+              "link": "/design-studio"
+            },
+            {
+              "name": "Digital Agency",
+              "link": "/digital-agency"
+            },
+            {
+              "name": "Creative Agency",
+              "link": "/creative-agency"
+            },
+            {
+              "name": "Startup Agency",
+              "link": "/startup-agency"
+            },
+            {
+              "name": "Modern Agency",
+              "link": "/modern-agency"
+            },
+            {
+              "name": "Personal Portfolio",
+              "link": "/personal-portfolio"
+            }
+          ]
+        },
+        {
+          "title": "Agency Dark",
+          "data": [
+            {
+              "name": "Digital Marketing",
+              "link": "/digital-marketing-dark"
+            },
+            {
+              "name": "Design Studio",
+              "link": "/design-studio-dark"
+            },
+            {
+              "name": "Digital Agency",
+              "link": "/digital-agency-dark"
+            },
+            {
+              "name": "Creative Agency",
+              "link": "/creative-agency-dark"
+            },
+            {
+              "name": "Startup Agency",
+              "link": "/startup-agency-dark"
+            },
+            {
+              "name": "Modern Agency",
+              "link": "/modern-agency-dark"
+            },
+            {
+              "name": "Personal Portfolio",
+              "link": "/personal-portfolio-dark"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nav_name": "Solutions",
+      "link": "/service",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Microsoft Dynamics 365 Finance",
+          "link": "/team"
+        },
+        {
+          "name": "Microsoft Dynamics 365 Supply Chain",
+          "link": "/team-details"
+        },
+        {
+          "name": "Microsoft Dynamics 365 Commerce",
+          "link": "/team-details"
+        },
+        {
+          "name": "Microsoft Dynamics 365 Business Central",
+          "link": "/team-details"
+        },
+        {
+          "name": "Microsoft Dynamics Customer Engagement",
+          "link": "/team-details"
+        },
+        {
+          "name": "Microsoft Power Platform",
+          "link": "/team-details"
+        },
+        {
+          "name": "Microsoft Azure IoT",
+          "link": "/team-details"
+        },
+        {
+          "name": "Oracle NetSuite",
+          "link": "/team-details"
+        }
+      ]
+    },
+
+    {
+      "nav_name": "Services",
+      "link": "/services  ",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Implementation",
+          "link": "/services/implementation"
+        },
+        {
+          "name": "Upgrade",
+          "link": "/services/upgrade"
+        },
+        {
+          "name": "Custom Development",
+          "link": "/services/custom-development"
+        },
+        {
+          "name": "Application Health Check",
+          "link": "/services/application-health-check"
+        },
+        {
+          "name": "Integration",
+          "link": "/services/integration"
+        },
+        {
+          "name": "Support",
+          "link": "/services/support"
+        },
+        {
+          "name": "Mobile/Web App Development",
+          "link": "/services/mobile-web-development"
+        }
+      ]
+    },
+
+    {
+      "nav_name": "Focus Areas",
+      "link": "/service",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Manufacturing",
+          "link": "/team"
+        },
+        {
+          "name": "Distribution",
+          "link": "/team-details"
+        },
+        {
+          "name": "Retail",
+          "link": "/team-details"
+        },
+        {
+          "name": "Professional Services",
+          "link": "/team-details"
+        }
+      ]
+    },
+
+    {
+      "nav_name": "Company",
+      "link": "/service",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Company",
+          "link": "/team"
+        },
+        {
+          "name": "Values",
+          "link": "/team-details"
+        },
+        {
+          "name": "Careers",
+          "link": "/team-details"
+        },
+        {
+          "name": "Strategic Partners",
+          "link": "/team-details"
+        }
+      ]
+    },
+
+    {
+      "nav_name": "Resources",
+      "link": "blog",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Blogs",
+          "link": "/blog"
+        },
+        {
+          "name": "News",
+          "link": "/blog-v2"
+        },
+        {
+          "name": "Events",
+          "link": "/category"
+        },
+        {
+          "name": "Customer Stories",
+          "link": "/blog-details"
+        },
+        {
+          "name": "Whitepapers",
+          "link": "/blog-details"
+        },
+        {
+          "name": "Support Portal",
+          "link": "/blog-details"
+        },
+        {
+          "name": "Contact Us",
+          "link": "/blog-details"
+        }
+      ]
+    }
+
+  ]
+}
