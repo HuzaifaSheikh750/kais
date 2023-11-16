@@ -8,9 +8,10 @@ import ServiceDetailsService from "@/components/service/ServiceDetailsService";
 import ServiceDetailsFaq from "@/components/faq/ServiceDetailsFaq";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
 import StartupAgencyWorkflow from "@/components/workflow/StartupAgencyWorkflow";
+import DesignStudioAbout from "@/components/about/DesignStudioAbout";
+import ModernAgencyHero from "@/components/hero/ModernAgencyHero";
+import ModernAgencyPortfolio from "@/components/portfolio/ModernAgencyPortfolio";
 
-import ThumbDev1 from "../../../public/assets/imgs/thumb/dev-1.jpg";
-import ThumbDev2 from "../../../public/assets/imgs/thumb/dev-2.jpg";
 import Link from "next/link";
 import Image from "next/image";
 import animationCharCome from "@/lib/utils/animationCharCome";
@@ -31,7 +32,7 @@ const ServiceDetails = () => {
       </Head>
       <main>
         <RootLayout header="header3" footer="footer3">
-          <section className="development__area">
+          {/* <section className="development__area">
             <div className="container g-0 line pt-130 pb-150">
               <div className="line-3"></div>
               <div className="row">
@@ -103,11 +104,13 @@ const ServiceDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
+          <ModernAgencyHero />
+          <ModernAgencyPortfolio />
           
 
-          <section className="service__detail">
+          {/* <section className="service__detail">
             <div className="container g-0 line pb-140">
               <div className="line-3"></div>
               <div className="row">
@@ -148,12 +151,9 @@ const ServiceDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
-          <StartupAgencyWorkflow />
-
-
-          <section className="cta__area cta__area-7 pt-130" style={{marginBottom:"60px", color:"grey"}}>
+<section className="cta__area cta__area-7 pt-100" style={{marginBottom:"60px", color:"grey"}}>
             <div className="container pb-110">
               <div className="row">
                 <div className="col-xxl-12">
@@ -184,6 +184,11 @@ const ServiceDetails = () => {
               </div>
             </div>
           </section>
+
+          <StartupAgencyWorkflow />
+
+
+          
 
           <DigitalAgencyCTA />
         </RootLayout>

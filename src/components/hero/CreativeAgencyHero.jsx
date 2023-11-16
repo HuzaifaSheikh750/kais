@@ -126,16 +126,15 @@ const CreativeAgencyHero = () => {
                   ref={heroThumAnim}
                 >
                   <h1 className="title creative" ref={creativeSection}>
-                    Creative{" "}
-                    <span className="solution" ref={solutionSection}>
-                      Solution
-                    </span>{" "}
+                    Integration{" "}
+                    {/* <span className="solution" ref={solutionSection}>
+                       Check
+                    </span>{" "} */}
                   </h1>
+                  <h5 style={{marginBottom:"20px"}}>Seamlessly integrate applications, data <br/>and process for your business to streamline operations</h5>
                   <p className="animate_content" ref={heroContentSection}>
                     {" "}
-                    We take a similar approach to design commercial we do
-                    impactfully approches over the flowchart of user friendly
-                    wireframe.
+                    With businesses moving toward digitization, KAISPE can help your business connect legacy, modern, and complex business applications more easily and quickly by providing integrations using standard and custom connectors.
                   </p>
                   <Image
                     priority

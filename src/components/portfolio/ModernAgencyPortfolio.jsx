@@ -73,12 +73,12 @@ const ModernAgencyPortfolio = () => {
           </h4>
         </div>
         <div className="row justify-content-between">
-          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+          <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
             <div className="about8">
               <h2 className="about8__title fade_bottom_2">
-                inspired <br /> with creativity <br /> <span>and </span>
-                <Link href="/about" className="hover_wrap" ref={hoverWrap}>
-                  SPACES
+                Why <br /> Choose <br /> <span> Kaispe </span>
+                {/* <Link href="/about" className="hover_wrap" ref={hoverWrap}>
+                KAISPE
                   <span
                     className="hover_img"
                     style={{
@@ -86,30 +86,49 @@ const ModernAgencyPortfolio = () => {
                         "url(assets/imgs/portfolio/detail/7.jpg)",
                     }}
                   ></span>
-                </Link>
+                </Link> */}
               </h2>
             </div>
           </div>
-          <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+          <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
             <div className="about8__content fade_bottom_2">
               <p>
                 {" "}
-                We’re a design and technology partner for digital age. We help
-                businesses into innovation and remain highly relevant to their
-                customers by developing cutting edge digital products and
-                executing smart and valuable service by Axtra template on
-                themeforest at the begining stage. Our exceptional digital
-                products, offers, services and brand communication solution from
-                idea to a product creating successful digital services for
-                innovative startups and established businesses with trendy UX/UI
-                design front and back-end development.
+                The Microsoft Dynamics Health Check collects data from the
+                Microsoft Dynamics™ AX or CRM environment and its dependencies
+                that includes but is not limited to, SQL Server, the Windows
+                operating system, Dynamics AX/CRM server and client
+                configuration, the network infrastructure and the physical
+                hardware. The scope of the Health Check is to help identify
+                issues and suggest resolution. Issue resolution or remediation
+                of any performance issues identified is outside the scope of the
+                Health Check.
               </p>
-              <Link href="/about" className="blog__btn about_btn">
+              {/* <Link href="/about" className="blog__btn about_btn">
                 Read More{" "}
                 <span>
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
-              </Link>
+              </Link> */}
+            </div>
+          </div>
+          <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+            <div className="about8__content fade_bottom_2">
+              <p>
+            
+                The Microsoft Dynamics AX/CRM Health Check is a point-in-time
+                review of the customer’s environment. As users are added,
+                additional data is created, performance data may change. It is
+                recommended to review the performance data on a regular
+                interval. The recommendations contained in this Health Check are
+                accurate for the time of data collection.
+              </p>
+              {/* <Link href="/about" className="blog__btn about_btn">
+                Read More{" "}
+                <span>
+                  <i className="fa-solid fa-arrow-right"></i>
+                </span>
+              </Link> */}
             </div>
           </div>
         </div>

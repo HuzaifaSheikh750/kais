@@ -52,7 +52,7 @@ const ModernAgencyHero = () => {
             className="sec-title-4 sec-title-5 animation__char_come"
             ref={charAnim}
           >
-            Design{" "}
+            Application{" "}
             <Image
               priority
               width={108}
@@ -62,7 +62,7 @@ const ModernAgencyHero = () => {
             />
           </h2>
           <h2 className="sec-title-4 animation__char_come" ref={charAnim2}>
-            Development <span>Craft</span>
+            Health <span>Check</span>
           </h2>
           <div className="scroll-wrapper">
             <div className="scroll-down">
@@ -75,21 +75,21 @@ const ModernAgencyHero = () => {
               />
             </div>
             <p className="discription hero__text-animation" ref={heroTextAnim}>
-              Static and dynamic secure code review can prevent a 0day before
-              your product is even released. We can integrate with your dev
-              environment
+            Optimize your on-premises business application performance with KAISPE Health Check offering <br/>
+            In-depth analysis of your existing environment and generate a comprehensive report to identify the performance bottlenecks along with recommendations on how to resolve them.
             </p>
+           
           </div>
         </div>
       </section>
-      <div className="portfolio__big">
+      {/* <div className="portfolio__big">
         <div
           className="portfolio__big-inner"
           style={{ backgroundImage: "url(assets/imgs/portfolio/detail/1.jpg)" }}
         >
           {" "}
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

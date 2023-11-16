@@ -13,7 +13,7 @@ const ServiceElementV5 = () => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
-              <h4 className="sec-title animation__char_come" ref={charAnim}>
+              <h4 className="sec-title animation__char_come " ref={charAnim} style={{fontSize:"40px"}}>
                 {" "}
                 Our Expertise with Major App Development Technologies
               </h4>

@@ -7,9 +7,15 @@ import ServiceDetailsWorkflow from "@/components/workflow/ServiceDetailsWorkflow
 import ServiceDetailsService from "@/components/service/ServiceDetailsService";
 import ServiceDetailsFaq from "@/components/faq/ServiceDetailsFaq";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
-import Detail3 from "../../../public/assets/imgs/blog/detail/upgrade.jpg";
-import ThumbDev1 from "../../../public/assets/imgs/thumb/dev-1.jpg";
-import ThumbDev2 from "../../../public/assets/imgs/thumb/dev-2.jpg";
+import Detail1 from "../../../public/assets/imgs/portfolio/detail/1.jpg";
+import Detail2 from "../../../public/assets/imgs/portfolio/detail/2.jpg";
+import Detail3 from "../../../public/assets/imgs/portfolio/detail/3.jpg";
+import Detail4 from "../../../public/assets/imgs/portfolio/detail/4.jpg";
+import Detail5 from "../../../public/assets/imgs/portfolio/detail/5.jpg";
+import Detail6 from "../../../public/assets/imgs/portfolio/detail/6.jpg";
+import Detail7 from "../../../public/assets/imgs/portfolio/detail/7.jpg";
+import DetailShape from "../../../public/assets/imgs/portfolio/detail/shape.png";
+
 import Link from "next/link";
 import Image from "next/image";
 import animationCharCome from "@/lib/utils/animationCharCome";
@@ -20,6 +26,30 @@ const ServiceDetails = () => {
     animationCharCome(charAnim.current);
   }, []);
 
+  const menuAnim = useRef();
+  useEffect(() => {
+    if (menuAnim.current) {
+      menuAnimation();
+    }
+  }, []);
+  const menuAnimation = () => {
+    let rootParent = menuAnim.current.children;
+    for (let i = 0; i < rootParent.length; i++) {
+      let firstParent = rootParent[i].children;
+      let arr = firstParent[0].textContent.split("");
+      let spanData = "";
+      for (let j = 0; j < arr.length; j++) {
+        if (arr[j] == " ") {
+          spanData += `<span style='width:6px;'>${arr[j]}</span>`;
+        } else {
+          spanData += `<span>${arr[j]}</span>`;
+        }
+      }
+      let result = '<div class="menu-text">' + spanData + "</div>";
+      firstParent[0].innerHTML = result;
+    }
+  };
+
   return (
     <>
       <Head>
@@ -29,7 +59,7 @@ const ServiceDetails = () => {
       </Head>
       <main>
         <RootLayout header="header3" footer="footer3">
-          <section className="development__area">
+          {/* <section className="development__area">
             <div className="container g-0 line pt-130 pb-150">
               <div className="line-3"></div>
               <div className="row">
@@ -59,11 +89,7 @@ const ServiceDetails = () => {
                       <p>
                       Our KAISPE support team is ready to calculate the cost according to the software and its underlying infrastructure, the extent of support and maintenance required, and the preferred pricing model.
                       </p>
-                      {/* <p>
-                    We like to be different, in the same way that every mission
-                    is different. Every project is an opportunity to create
-                    result that will help you
-                  </p> */}
+                    
                     </div>
                     <ul style={{ paddingTop: "20px" }}>
                       <li>+ API Development</li>
@@ -101,12 +127,45 @@ const ServiceDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
-        
+          <footer className="footer__area-2 pt-130">
+            <div className="container">
+              <div className="footer__top-2 text-anim">
+                <div className="row">
+                  <div className="col-xxl-12">
+                    <h2
+                      className="sec-title-33 title-anim"
+                      style={{ marginBottom: "10px" }}
+                    >
+                      Support
+                    </h2>
+                    <p
+                      className="footer__sub-title"
+                      style={{ fontSize: "20px" }}
+                    >
+                      We have the resources at your fingertips when you need
+                      them. You can also stay up to date, either way, leveling
+                      up is just one click away.
+                    </p>
+                    <p
+                      className="footer__sub-title"
+                      style={{ fontSize: "20px" }}
+                    >
+                      Our KAISPE support team is ready to calculate the cost
+                      according to the software and its underlying
+                      infrastructure, the extent of support and maintenance
+                      required, and the preferred pricing model.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
 
           <section className="service__detail">
-            <div className="container g-0 line pb-140">
+            <div className="container g-0  pb-140">
               <div className="line-3"></div>
               <div className="row">
                 <div className="col-xxl-12">
@@ -120,46 +179,41 @@ const ServiceDetails = () => {
                   </div>
                 </div>
                 <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
-                  {/* <div className="service__detail-img">
-                <Image
-                  priority
-                  width={960}
-                  style={{ height: "auto" }}
-                  src={ServiceDetail}
-                  alt="Service detail image"
-                />
-                <Image
-                  priority
-                  width={51}
-                  style={{ height: "auto" }}
-                  src={Shape6}
-                  alt="Service shape image"
-                  className="sd-shape"
-                />
-              </div> */}
-                  <div className="" style={{fontSize:"18px", fontFamily:"kanit, sans-serif"}} >
+                  <div
+                    className=""
+                    style={{
+                      fontSize: "18px",
+                      fontFamily: "kanit, sans-serif",
+                    }}
+                  >
                     <p>
-                    Your success is a top priority for us, and we make sure that our customers receive the maximum return on their investment. We offer flexible support offerings ranging from Basic to Advance, to Premium Customer Support. Each offering provides specific service levels and capabilities, from online case submission to phone support, that helps maintain your software solution.
-                    </p><br/>
-                    <p>
-                    Please check below a typical set of flexible support offerings available to you. To better suit your requirements, we can also mix and match the options to build a custom option for you:
+                      Your success is a top priority for us, and we make sure
+                      that our customers receive the maximum return on their
+                      investment. We offer flexible support offerings ranging
+                      from Basic to Advance, to Premium Customer Support. Each
+                      offering provides specific service levels and
+                      capabilities, from online case submission to phone
+                      support, that helps maintain your software solution.
                     </p>
-                  
+                    <br />
+                    <p>
+                      Please check below a typical set of flexible support
+                      offerings available to you. To better suit your
+                      requirements, we can also mix and match the options to
+                      build a custom option for you:
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          <section className="cta__area cta__area-7 pt-130">
+          {/* <section className="cta__area cta__area-7 pt-130">
             <div className="container pb-110">
               <div className="row">
                 <div className="col-xxl-12">
                   <div className="cta__content">
-                    {/* <p className="cta__sub-title">Work with us</p> */}
-                    {/* <h2 className="cta__title title-anim">
-                      A 5-Step Guide to ERP Implementation
-                    </h2> */}
+                   
                     <p
                       style={{
                         marginTop: "30px",
@@ -185,7 +239,7 @@ const ServiceDetails = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
           <DigitalAgencyCTA />
         </RootLayout>
@@ -195,5 +249,3 @@ const ServiceDetails = () => {
 };
 
 export default ServiceDetails;
-
-

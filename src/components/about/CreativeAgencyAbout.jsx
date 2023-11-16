@@ -51,7 +51,7 @@ const CreativeAgencyAbout = () => {
       </div>
       <section className="about__area-7">
         <div className="container pt-130 pb-110">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
@@ -60,7 +60,7 @@ const CreativeAgencyAbout = () => {
                 </h2>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <div className="about__left-7">
@@ -76,16 +76,21 @@ const CreativeAgencyAbout = () => {
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="about__mid-7 text-anim">
                 <p>
-                  We believe that we’ve managed to achieve what we set out to
-                  do. Today, we’re proud to bring together people who share our
-                  passion for change. This is how Outcrowd began. We were just a
-                  bunch of talented Ukrainians united by a common vision:
-                  creating a synergy of business and the digital world.
+                  Our team of integration experts can assist you with
+                  integration design and deployment as well as to transfer core
+                  integration skills to you and your team. Even, if you have
+                  already started an enterprise integration project and would
+                  like our oversight and review, feel free to reach out to us.
                 </p>
                 <p>
-                  We were tired of stale design solutions. We felt strongly that
-                  design was more than pretty pictures: it was a powerful tool
-                  that could really transform business.
+                  As experts in eCommerce integration, we specialize in
+                  developing custom integrations that connect your storefront
+                  like Shopify, BigCommerce, Magento and SquareSpace with all
+                  other systems and applications. From ERP and CRM systems to
+                  marketplaces, shipment providers, and other third-party
+                  applications, we offer both custom integrations as well as
+                  out-of-the-box integration solutions for any and all
+                  applications.
                 </p>
                 <Image
                   priority
