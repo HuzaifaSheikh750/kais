@@ -90,7 +90,7 @@ const PortfolioSwiperDestop = ({ portfolioSection, portfolioHeroImg }) => {
                           View all work
                         </Link>
                       </div>
-                      <Image
+                      {/* <Image
                         priority
                         width={921}
                         style={{ height: "auto" }}
@@ -98,7 +98,7 @@ const PortfolioSwiperDestop = ({ portfolioSection, portfolioHeroImg }) => {
                         alt="Personal Portfolio"
                         className="pp-thumb"
                         ref={portfolioHeroImg}
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>

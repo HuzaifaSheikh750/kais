@@ -76,40 +76,40 @@
     },
     {
       "nav_name": "Solutions",
-      "link": "/service",
+      "link": "/solutions",
       "type": "dropdown",
       "sub_nav": [
         {
           "name": "Microsoft Dynamics 365 Finance",
-          "link": "/team"
+          "link": "/solutions/microsoft-dynamics-365-finance"
         },
         {
           "name": "Microsoft Dynamics 365 Supply Chain",
-          "link": "/team-details"
+          "link": "/solutions/microsoft-dynamics-365-supply-chain"
         },
         {
           "name": "Microsoft Dynamics 365 Commerce",
-          "link": "/team-details"
+          "link": "/solutions/microsoft-dynamics-365-commerce"
         },
         {
           "name": "Microsoft Dynamics 365 Business Central",
-          "link": "/team-details"
+          "link": "/solutions/microsoft-dynamics-365-business-central"
         },
         {
           "name": "Microsoft Dynamics Customer Engagement",
-          "link": "/team-details"
+          "link": "/solutions/microsoft-dynamics-customer-engagement"
         },
         {
           "name": "Microsoft Power Platform",
-          "link": "/team-details"
+          "link": "/solutions/microsoft-power-platform"
         },
         {
           "name": "Microsoft Azure IoT",
-          "link": "/team-details"
+          "link": "/solutions/microsoft-azure-iot"
         },
         {
           "name": "Oracle NetSuite",
-          "link": "/team-details"
+          "link": "/solutions/oracle-netsuite"
         }
       ]
     },

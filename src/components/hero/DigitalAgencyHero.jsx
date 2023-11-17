@@ -6,6 +6,8 @@ import Link from "next/link.js";
 import ArrowDownBig from "../../../public/assets/imgs/icon/arrow-down-big.png";
 import Hero1bg from "../../../public/assets/imgs/hero/1/1-bg.png";
 import Image from "next/image.js";
+import BlogElementV2 from "@/components/blog/BlogElementV2";
+
 
 const DigitalAgencyHero = () => {
   const heroTitle = useRef();
@@ -52,27 +54,27 @@ const DigitalAgencyHero = () => {
   }, []);
   return (
     <>
-      <section className="hero__area ">
+      <section className="hero__area" style={{marginBottom:"80px"}}>
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">
               <div className="hero__content animation__hero_one">
                 <Link href="/service">
-                  Strategy, Design, Solution Development{" "}
-                  <span>
+                  
+                  {/* <span>
                     <i className="fa-solid fa-arrow-right"></i>
-                  </span>
+                  </span> */}
                 </Link>
                 <div className="hero__title-wrapper">
-                  <h1 className="hero__title" ref={heroTitle}>
-                    Digital agency studio
+                  <h1 className="hero__title" ref={heroTitle} style={{marginTop:"100px"}}>
+                    Our <br/>Solutions
                   </h1>
-                  <p className="hero__sub-title" ref={heroSubTitle}>
+                  {/* <p className="hero__sub-title" ref={heroSubTitle}>
                     With every single one of our clients, we bring forth deep
                     passion for
                     <span>creative problem solving</span>
                     which is what we deliver.
-                  </p>
+                  </p> */}
                 </div>
                 <Image
                   priority
@@ -101,6 +103,9 @@ const DigitalAgencyHero = () => {
           className="hero1_bg"
         />
       </section>
+
+      <BlogElementV2 />
+
     </>
   );
 };

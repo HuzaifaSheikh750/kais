@@ -85,7 +85,7 @@ const DigitalAgency = () => {
         <div className="cursor" id="client_cursor">
           Play
         </div>
-        <RootLayout header="header3" footer="footer3">
+        <RootLayout header="header2" footer="footer3">
           <DigitalAgencyHero />
           <DigitalAgencyRoll />
           <DigitalAgencyAbout />
