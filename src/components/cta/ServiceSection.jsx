@@ -17,8 +17,8 @@ const StartupAgencyCTA = () => {
           </div>
 
           <div className="cta__inner-4">
-            <div className="row">
-              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+            <div className="row" style={{ paddingBottom: "50px" }}>
+              {/* <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <div className="cta__content-4">
                   <Image
                     priority
@@ -28,21 +28,23 @@ const StartupAgencyCTA = () => {
                     alt="Cta Image"
                   />
                 </div>
-              </div>
-              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+              </div> */}
+              <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                 <div className="cta__content-4">
                   <h2 className="cta__title-4 title-anim">
-                  Need to get to finances right without a hassle?
+                    For the uninterrupted implementation of Dynamics 365
+                    eCommerce, give us a call.
                   </h2>
                 </div>
               </div>
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                <div className="cta__content-4 text-anim">
-                  <p>
-                  Maintain the highest ROI by keeping your finances on track with Microsoft Dynamics 365 Finance and Operations.
-                  </p>
-                  <Link className="btn-started" href="/contact">
-                    Get a Quote{" "}
+                <div className="cta__content-4 text-anim text-center">
+                  <Link
+                    className="btn-started mx-auto"
+                    href="/contact"
+                    style={{ marginTop: "50px" }}
+                  >
+                    Book a Demo!{" "}
                     <span>
                       <i className="fa-solid fa-arrow-right"></i>
                     </span>

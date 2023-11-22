@@ -79,19 +79,20 @@ const DesignStudioHero = () => {
       <section className="hero__area-2">
         <div className="hero__inner-2">
           <div className="sec-title-wrapper">
-            <h2 className="sec-title-3 bg-shape">
+            <h2 className="sec-title-3 bg-shape" style={{fontSize:"60px"}}>
               Microsoft Dynamic<br />
               365
             </h2>
-            <h2 className="sec-title-3">
-              Supply <br />
-              Chain
+            <h2 className="sec-title-3" style={{fontSize:"60px"}}>
+              Customer  <br />
+              Engagement
             </h2>
           </div>
-          <div className="hero__text-2" style={{marginTop:"50px"}}>
+          <div className="hero__text-2" style={{marginTop:"70px"}}>
             <p>
-            Make smarter choices; in the future supply chain will be automated and centralized on a cloud-based platform – Microsoft D365 Supply chain management provides a holistic view of operations for greater agility and risk mitigation.
+            Engaging, Centralized, and Customer-focused Dynamics 365 CRM - Making Agility Easy and Customers Happy.
             </p>
+            <p>KAISPE can bring your entire customer journey on a single platform.</p>
             <div className="hero__button btn_wrapper" ref={btnWrapper}>
               <Link href="/service" className="wc-btn-pink btn-hover btn-item">
                 <span></span>

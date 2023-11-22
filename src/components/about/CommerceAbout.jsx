@@ -40,23 +40,14 @@ const CreativeAgencyAbout = () => {
   }, []);
   return (
     <>
-      <div className="video__area about__img-2">
-        <Image
-          priority
-          style={{ width: "100%", height: "auto" }}
-          src={Video}
-          alt="Video Image"
-          data-speed="0.2"
-        />
-      </div>
       <section className="about__area-7">
         <div className="container pt-130 pb-110">
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
-                  We want to bring <br /> business and the digital <br /> world
-                  together
+                  Looking for experts for the right implementation of MS D365
+                  Commerce with guidance? KAISPE is your way to GO.
                 </h2>
               </div>
             </div>
@@ -76,23 +67,19 @@ const CreativeAgencyAbout = () => {
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="about__mid-7 text-anim">
                 <p>
-                  Our team of integration experts can assist you with
-                  integration design and deployment as well as to transfer core
-                  integration skills to you and your team. Even, if you have
-                  already started an enterprise integration project and would
-                  like our oversight and review, feel free to reach out to us.
+                  At our company, we prioritize your business objectives in our
+                  approach to implementing Dynamics 365 for Retail. Our aim is
+                  to equip your organization with the tools and skills necessary
+                  to successfully adopt and make the most of new systems and
+                  capabilities.
                 </p>
                 <p>
-                  As experts in eCommerce integration, we specialize in
-                  developing custom integrations that connect your storefront
-                  like Shopify, BigCommerce, Magento and SquareSpace with all
-                  other systems and applications. From ERP and CRM systems to
-                  marketplaces, shipment providers, and other third-party
-                  applications, we offer both custom integrations as well as
-                  out-of-the-box integration solutions for any and all
-                  applications.
+                  Our proven project delivery methodology ensures that we
+                  maintain high-quality standards, minimize risks, and optimize
+                  efficiency. It enables you to maximize the value of our
+                  vertical solutions and expertise.
                 </p>
-                <Image
+                {/* <Image
                   priority
                   width={155}
                   height={57}
@@ -107,7 +94,7 @@ const CreativeAgencyAbout = () => {
                   src={A2}
                   alt="Image"
                   className="image-1"
-                />
+                /> */}
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">

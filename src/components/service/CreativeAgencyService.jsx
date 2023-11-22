@@ -59,7 +59,7 @@ const CreativeAgencyService = () => {
   }, []);
   return (
     <>
-      <section className="service__area-7 pt-130">
+      <section className="service__area-2 pt-130">
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">
@@ -128,7 +128,7 @@ const CreativeAgencyService = () => {
                     <li>+ Promotion</li>
                   </ul>
                 </div>
-                <div className="service__item-7">
+                {/* <div className="service__item-7">
                   <Link href="/service-details">
                     <h3 className="service__title-7">
                       Business <span>Strategy</span>
@@ -143,8 +143,8 @@ const CreativeAgencyService = () => {
                     <li>+ Advertisement</li>
                     <li>+ Promotion</li>
                   </ul>
-                </div>
-                <div className="service__item-7">
+                </div> */}
+                {/* <div className="service__item-7">
                   <Link href="/service-details">
                     <h3 className="service__title-7">
                       Illustration <span>Modelling</span>{" "}
@@ -159,7 +159,7 @@ const CreativeAgencyService = () => {
                     <li>+ Advertisement</li>
                     <li>+ Promotion</li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

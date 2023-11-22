@@ -98,7 +98,7 @@ const Service1 = () => {
                   <ul className="service__list-6">
                     <li>
                       <a href="#service_1">
-                        Integration <br />
+                        Implementation <br />
                         
                       </a>
                     </li>

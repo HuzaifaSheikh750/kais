@@ -5,9 +5,12 @@ import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
 import Link from "next/link";
 import Image from "next/image";
 import SolutionHero from "@/components/hero/SolutionHero";
-
+import DigitalMarketingAbout from "@/components/about/DigitalMarketingAbout";
 import animationCharCome from "@/lib/utils/animationCharCome";
-
+import StartupAgencyTestimonial from "@/components/testimonial/StartupAgencyTestimonial";
+import StartupAgencyCTA from "@/components/cta/StartupAgencyCTA";
+import DesignStudioProtfolio from "@/components/portfolio/DesignStudioProtfolio";
+import StartupAgencyFaq from "@/components/faq/StartupAgencyFaq";
 
 const ServiceDetails = () => {
   const charAnim = useRef();
@@ -48,88 +51,54 @@ const ServiceDetails = () => {
       </Head>
       <main>
         <RootLayout header="header1" footer="footer3">
+          <SolutionHero />
 
-        <SolutionHero />
+          <DigitalMarketingAbout />
 
-
-          <footer className="footer__area-2 pt-130">
+          <footer className="footer__area-2 pt-100">
             <div className="container">
               <div className="footer__top-2 text-anim">
                 <div className="row">
                   <div className="col-xxl-12">
                     <h2
                       className="sec-title-33 title-anim"
-                      style={{ marginBottom: "10px" }}
+                      style={{ marginBottom: "10px", fontSize: "50px" }}
                     >
-                      Support
+                      Improve your Financial Statement by Upgrading to Microsoft
+                      Dynamics 365 F&O
                     </h2>
                     <p
                       className="footer__sub-title"
                       style={{ fontSize: "20px" }}
                     >
-                      We have the resources at your fingertips when you need
-                      them. You can also stay up to date, either way, leveling
-                      up is just one click away.
+                      Mainstream support for Dynamics AX 2012 has ended now.
+                      This means many organizations are planning to upgrade to
+                      Microsoft Dynamics 365.
                     </p>
-                    <p
-                      className="footer__sub-title"
-                      style={{ fontSize: "20px" }}
-                    >
-                      Our KAISPE support team is ready to calculate the cost
-                      according to the software and its underlying
-                      infrastructure, the extent of support and maintenance
-                      required, and the preferred pricing model.
-                    </p>
+
+                    <div className="btn_wrapper" style={{ textAlign: "start" }}>
+                      <Link
+                        href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/upgrade-overview-2012"
+                        target="_blank"
+                        className="wc-btn-secondary btn-hover btn-item"
+                      >
+                        <span></span>Learn More{" "}
+                        <i className="fa-solid fa-arrow-right"></i>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </footer>
+          <StartupAgencyCTA />
 
+          <StartupAgencyTestimonial />
 
-          <section className="service__detail">
-            <div className="container g-0  pb-140">
-              <div className="line-3"></div>
-              <div className="row">
-                <div className="col-xxl-12">
-                  <div className="sec-title-wrapper">
-                    <h2 className="sec-title title-anim">Why Choose KAISPE</h2>
-                  </div>
-                </div>
-                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                  <div className="service__detail-circle">
-                    <span></span>
-                  </div>
-                </div>
-                <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
-                  <div
-                    className=""
-                    style={{
-                      fontSize: "18px",
-                      fontFamily: "kanit, sans-serif",
-                    }}
-                  >
-                    <p>
-                      Your success is a top priority for us, and we make sure
-                      that our customers receive the maximum return on their
-                      investment. We offer flexible support offerings ranging
-                      from Basic to Advance, to Premium Customer Support. Each
-                      offering provides specific service levels and
-                      capabilities, from online case submission to phone
-                      support, that helps maintain your software solution.
-                    </p>
-                    <br />
-                    <p>
-                      Please check below a typical set of flexible support
-                      offerings available to you. To better suit your
-                      requirements, we can also mix and match the options to
-                      build a custom option for you:
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          {/* <StartupAgencyFaq /> */}
+          <StartupAgencyFaq />
+
+          <DesignStudioProtfolio />
 
           <DigitalAgencyCTA />
         </RootLayout>

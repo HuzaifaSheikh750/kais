@@ -20,23 +20,23 @@ const SolutionHero = () => {
                     src={Shape1}
                     alt="shape"
                   />{" "} */}
-                  Finance{" "}
-                  <Image
+                  Business Central{" "}
+                  {/* <Image
                     priority
                     width={125}
                     style={{ height: "auto" }}
                     src={Shape2}
                     alt="shape"
-                  />
+                  /> */}
                 </h1>
-                <h4>
-                Create a Resilient Organization through the Optimization <br/>of Financial Operations
+                <h4 style={{marginTop:"30px"}}>
+                Give Yourself a Break from All the Applications and Drive Your Business through One Solution for All - Dynamics 365 Business Central
                 </h4>
               </div>
               <div className="hero__text-7">
                 <h2 className="about">solution</h2>
                 <p>
-                Automate and modernize your global financial operations with Microsoft Dynamics 365 Finance and take one step toward the future of Finances.
+                Empower people across your SMB to be more collaborative, productive, and impactful using Microsoft Dynamics 365 Business Central to run your business operations.
                 </p>
               </div>
             </div>

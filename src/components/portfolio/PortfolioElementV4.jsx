@@ -31,8 +31,8 @@ const PortfolioElementV4 = () => {
             <div className="col-xxl-8 col-xl-7 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come" ref={charAnim}>
-                  Awesome <br />
-                  Projects
+                  Our <br />
+                  Solutions
                 </h2>
               </div>
             </div>
@@ -49,8 +49,7 @@ const PortfolioElementV4 = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-sub-title title-anim">
-                  Featured <br />
-                  Work
+                  SOlutions
                 </h2>
               </div>
             </div>
@@ -76,10 +75,11 @@ const PortfolioElementV4 = () => {
                 <div className="swiper-wrapper">
                   <SwiperSlide>
                     <div className="portfolio__slide-3">
-                      <Link href="/service-details">
+                      <Link href="/solutions/microsoft-dynamics-365-finance">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                        Microsoft <span>Dynamics</span> 365 Finance
                         </h3>
+                        
                         <Image
                           priority
                           width={550}
@@ -92,10 +92,11 @@ const PortfolioElementV4 = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="portfolio__slide-3">
-                      <Link href="/service-details">
-                        <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                      <Link href="/solutions/microsoft-dynamics-365-supply-chain">
+                        <h3 className="portfolio__title-3" style={{fontSize:"140px"}}>
+                        Microsoft <span>Dynamics 365</span>  Supply Chain
                         </h3>
+                          
                         <Image
                           priority
                           width={550}
@@ -108,10 +109,11 @@ const PortfolioElementV4 = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="portfolio__slide-3">
-                      <Link href="/service-details">
-                        <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                      <Link href="/solutions/microsoft-dynamics-365-commerce">
+                        <h3 className="portfolio__title-3" style={{fontSize:"145px"}}>
+                        Microsoft <span>Dynamics </span>365 Commerce
                         </h3>
+                      
                         <Image
                           priority
                           width={550}
@@ -124,9 +126,74 @@ const PortfolioElementV4 = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="portfolio__slide-3">
-                      <Link href="/service-details">
+                      <Link href="/solutions/microsoft-dynamics-365-business-central">
+                        <h3 className="portfolio__title-3" style={{fontSize:"130px"}}>
+                        Microsoft <span> Dynamics </span> 365 Business Central
+                        </h3>        
+
+                        <Image
+                          priority
+                          width={550}
+                          style={{ height: "auto" }}
+                          src={Portfilio34}
+                          alt="Portfolio Image"
+                        />
+                      </Link>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="portfolio__slide-3">
+                      <Link href="/solutions/microsoft-dynamics-customer-engagement">
+                        <h3 className="portfolio__title-3" style={{fontSize:"130px"}}>
+                        Microsoft <span>Dynamics Customer</span> Engagement
+                        </h3>
+                        <Image
+                          priority
+                          width={550}
+                          style={{ height: "auto" }}
+                          src={Portfilio34}
+                          alt="Portfolio Image"
+                        />
+                      </Link>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="portfolio__slide-3">
+                      <Link href="/solutions/microsoft-power-platform">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                        Microsoft <span>Power</span> Platform
+                        </h3>
+                        <Image
+                          priority
+                          width={550}
+                          style={{ height: "auto" }}
+                          src={Portfilio34}
+                          alt="Portfolio Image"
+                        />
+                      </Link>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="portfolio__slide-3">
+                      <Link href="/solutions/microsoft-azure-iot">
+                        <h3 className="portfolio__title-3">
+                        Microsoft <span>Azure</span> IOT
+                        </h3>
+                        <Image
+                          priority
+                          width={550}
+                          style={{ height: "auto" }}
+                          src={Portfilio34}
+                          alt="Portfolio Image"
+                        />
+                      </Link>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="portfolio__slide-3">
+                      <Link href="/solutions/oracle-netsuite">
+                        <h3 className="portfolio__title-3">
+                        Oracle <span>NetSuite</span>
                         </h3>
                         <Image
                           priority

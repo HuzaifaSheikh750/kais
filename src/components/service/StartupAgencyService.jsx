@@ -64,18 +64,16 @@ const StartupAgencyService = () => {
           <div className="row">
             <div className="col-xxl-5 col-xl-5 col-lg-6 col-md-6">
               <div className="service__left-6">
-                <h2 className="sec-subtile-6">Services</h2>
+                {/* <h2 className="sec-subtile-6">Services</h2> */}
                 <h3 className="sec-title-6 title-anim">
-                  Our full <br /> creative services <br /> for you
+                Features and capabilities of Microsoft Dynamics 365 Commerce:
                 </h3>
               </div>
             </div>
             <div className="col-xxl-7 col-xl-7 col-lg-6 col-md-6">
               <div className="service__right-4">
                 <p>
-                  We are constantly rethinking the future by creating the next
-                  generation of products,{" "}
-                  <span>brands and services from a hybrid perspective.</span>
+                  <span>Microsoft Dynamics 365 commerce offers a unified commerce experience - giving you all the time to focus on other business details.</span>
                 </p>
                 <Link className="btn-view" href="/service">
                   View All Service <i className="fa-solid fa-arrow-right"></i>
@@ -108,7 +106,7 @@ const StartupAgencyService = () => {
                           className="service__item-title"
                           href="/service-details"
                         >
-                          Brand Strategy
+                          Omni channel retail
                         </Link>
                       </h4>
                     </div>
@@ -128,7 +126,7 @@ const StartupAgencyService = () => {
                           className="service__item-title"
                           href="/service-details"
                         >
-                          Development
+                          Effective Merchandising
                         </Link>
                       </h4>
                     </div>
@@ -148,7 +146,7 @@ const StartupAgencyService = () => {
                           className="service__item-title"
                           href="/service-details"
                         >
-                          UI/UX Design
+                          Modern point of sale 
                         </Link>
                       </h4>
                     </div>
@@ -168,7 +166,7 @@ const StartupAgencyService = () => {
                           className="service__item-title"
                           href="/service-details"
                         >
-                          Digital marketing
+                          Modernize retail store 
                         </Link>
                       </h4>
                     </div>

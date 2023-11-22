@@ -43,20 +43,26 @@ const DigitalMarketingAbout = () => {
 
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Who We Are</h2>
-                <h3 className="sec-title title-anim">
-                  We are leading digital marketing agency.
+                {/* <h2 className="sec-sub-title title-anim">Who We Are</h2> */}
+                <h3 className="sec title-anim" style={{ color: "white" }}>
+                  Unlock the Power of Intelligent Financial Management with
+                  Microsoft Dynamics 365 Finance
                 </h3>
               </div>
               <div className="sec-text-wrapper">
                 <div className="sec-text text-anim">
                   <p>
-                    We’re a team of strategic mdigital marketing working
-                    globally with largest brands, We believe that progress only
-                    happens when you refused to play things safe. We combine
-                    ideas and behaviors, and insights with design, technological
-                    data to produce brand experiences that customers love our
-                    services.
+                    Microsoft Dynamics 365 Finance is a cloud-based
+                    enterprise-level business application for accounting and
+                    financial management. With AI-powered features, you can
+                    easily forecast and make data-driven decisions while staying
+                    secure and compliant.
+                  </p>
+                  <p>
+                    Whether you're a growing or emerging startup or an
+                    established enterprise, Dynamics 365 Finance offers a
+                    scalable, intuitive, and impactful financial management
+                    system to help drive your business forward.
                   </p>
                   <div className="btn_wrapper">
                     <Link

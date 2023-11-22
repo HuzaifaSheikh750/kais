@@ -54,20 +54,19 @@ const StartupAgencyFaq = () => {
   }, []);
   return (
     <>
-      <section className="faq__area-4 pt-150 pb-150">
+      <section className="faq__area-4 pt-150 pb-150" style={{marginBottom:"100px"}}>
         <div className="container g-0">
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-7 col-md-6">
               <div className="faq__sec-title text-anim">
                 <h2 className="sec-subtile-6">Expertise</h2>
                 <h3 className="sec-title-6 title-anim">
-                  With more than 16+ years of experience, our team has become a
-                  leader in digital innovations.
+                Key Features and Functionalities of Microsoft Dynamics 365 Finance
                 </h3>
-                <p>Grow brands through bold, strategic creative</p>
+                {/* <p>Grow brands through bold, strategic creative</p>
                 <Link className="btn-view" href="/about">
                   Know More <i className="fa-solid fa-arrow-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -86,13 +85,11 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingOne"
                     >
-                      Design should enrich our day
+                      Human Resources: 
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                        Using year-over-year design approaches and latest techs,
-                        we will ensure that your new website will be{" "}
-                        <span>accessible, and treads lightly</span>.
+                      Microsoft Dynamics 365 HR is a comprehensive HR management solution that streamlines HR processes such as hiring, onboarding, payroll, benefits management, performance management, and employee engagement.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -105,13 +102,11 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingTwo"
                     >
-                      Bring their individual experience and creative
+                      Product Information: 
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                        {
-                          "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes"
-                        }
+                      Microsoft D365 Product Information Management helps businesses manage and centralize their product data, enabling them to create, update, and publish product information across all channels.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -124,14 +119,11 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingThree"
                     >
-                      Human centred design to challenges
+                      General Ledger Functionality: 
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                        Our design services starts and ends with a best-in-class
-                        experience strategy that builds brands. Through a
-                        process of iteration and prototyping design interfaces
-                        that bring joy to people
+                      Microsoft Dynamics 365 General Ledger Functionality provides tools for managing a company's financial transactions, including journal entries, account reconciliations, and financial reporting.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -144,14 +136,28 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingFour"
                     >
-                      Design should enrich our day
+                      Accounts Receivable: 
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                        Our design services starts and ends with a best-in-class
-                        experience strategy that builds brands. Through a
-                        process of iteration and prototyping design interfaces
-                        that bring joy to people
+                      With Microsoft Dynamics 365 Accounts Receivable, businesses can manage and automate their invoicing processes, track customer payments, and streamline collections.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+
+                  <Accordion.Item
+                    eventKey="3"
+                    className="accordion-item fade_bottom_3"
+                  >
+                    <Accordion.Header
+                      className="accordion-header"
+                      id="headingFour"
+                    >
+                      Accounts Payable: 
+                    </Accordion.Header>
+                    <Accordion.Body className="accordion-body">
+                      <p>
+                      Microsoft Dynamics 365 Accounts Payable helps businesses manage vendor invoices, automate payment processing, and track vendor payments.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

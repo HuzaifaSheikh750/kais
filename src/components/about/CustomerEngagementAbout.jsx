@@ -8,7 +8,7 @@ import Shape5 from "../../../public/assets/imgs/home-7/shape-5.png";
 import A2 from "../../../public/assets/imgs/home-7/a2.jpg";
 import A3 from "../../../public/assets/imgs/home-7/a3.jpg";
 import Image from "next/image";
-
+import Link from "next/link";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
 
 const CreativeAgencyAbout = () => {
@@ -40,23 +40,14 @@ const CreativeAgencyAbout = () => {
   }, []);
   return (
     <>
-      <div className="video__area about__img-2">
-        <Image
-          priority
-          style={{ width: "100%", height: "auto" }}
-          src={Video}
-          alt="Video Image"
-          data-speed="0.2"
-        />
-      </div>
       <section className="about__area-7">
         <div className="container pt-130 pb-110">
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
-                  We want to bring <br /> business and the digital <br /> world
-                  together
+                  Improve Your Sales Productivity by being an All-rounder in all
+                  the Prominent Fields
                 </h2>
               </div>
             </div>
@@ -76,23 +67,28 @@ const CreativeAgencyAbout = () => {
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="about__mid-7 text-anim">
                 <p>
-                  Our team of integration experts can assist you with
-                  integration design and deployment as well as to transfer core
-                  integration skills to you and your team. Even, if you have
-                  already started an enterprise integration project and would
-                  like our oversight and review, feel free to reach out to us.
+                  Delays are the killer of any business in this outrageous
+                  increase of digitization. Save yourself from trouble by
+                  keeping a closer look at the insightful data from all your
+                  departments. Benefit from automated features of D365 Customer
+                  Engagement to achieve operational excellence, generate new
+                  leads, and deliver a better customer experience. Other than
+                  marketing, sales, project, and customer services, it also
+                  helps you integrate with various Microsoft offerings.
+                  Integrate with tools like Power Apps, Power Automate, and
+                  Power BI to furnish a complete and adaptable solution for
+                  managing customer relationships and engagement.
                 </p>
-                <p>
-                  As experts in eCommerce integration, we specialize in
-                  developing custom integrations that connect your storefront
-                  like Shopify, BigCommerce, Magento and SquareSpace with all
-                  other systems and applications. From ERP and CRM systems to
-                  marketplaces, shipment providers, and other third-party
-                  applications, we offer both custom integrations as well as
-                  out-of-the-box integration solutions for any and all
-                  applications.
-                </p>
-                <Image
+                <div className="btn_wrapper">
+                  <Link
+                    href="/contact"
+                    className="wc-btn-primary btn-hover btn-item"
+                  >
+                    <span></span>Book a Demo{" "}
+                    <i className="fa-solid fa-arrow-right"></i>
+                  </Link>
+                </div>
+                {/* <Image
                   priority
                   width={155}
                   height={57}
@@ -107,7 +103,7 @@ const CreativeAgencyAbout = () => {
                   src={A2}
                   alt="Image"
                   className="image-1"
-                />
+                /> */}
               </div>
             </div>
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">

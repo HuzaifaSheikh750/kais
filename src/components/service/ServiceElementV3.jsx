@@ -5,7 +5,7 @@ import Service21 from "../../../public/assets/imgs/service/2/1.png";
 import Service22 from "../../../public/assets/imgs/service/2/2.png";
 import Service23 from "../../../public/assets/imgs/service/2/3.png";
 import Image from "next/image";
-
+import Link from "next/link";
 gsap.registerPlugin(ScrollTrigger);
 
 const ServiceElementV3 = () => {
@@ -68,7 +68,7 @@ const ServiceElementV3 = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+            {/* <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="sec-text text-anim">
                 <p>
                   Having completed projects with thousands of man hours of
@@ -77,11 +77,11 @@ const ServiceElementV3 = () => {
                   platforms.
                 </p>
               </div>
-            </div>
-            <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+            </div> */}
+            <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
-                  Our Expertise with Major App Development Technologies
+                  Key Features & Functionalities
                 </h2>
               </div>
             </div>
@@ -99,19 +99,23 @@ const ServiceElementV3 = () => {
                       src={Service21}
                       alt="Service Icon"
                     />
-                    <h3 className="service__title-2">
-                      Development Languages <br />
-                      and Toolkits
-                    </h3>
-                    {/* <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
-                    </p> */}
-                    <ul>
+                    <h3 className="service__title-2">Financial Management</h3>
+                    <p>
+                      Effective financial management is essential for any
+                      business to succeed. With Microsoft's financial management
+                      software, you can make informed decisions and manage your
+                      finances effectively. Below are some of the key features
+                      and benefits:
+                    </p>
+                    <Link className="btn-view" href="/">
+                      View All Service{" "}
+                      <i className="fa-solid fa-arrow-right"></i>
+                    </Link>
+                    {/* <ul>
                       <li>+ Kotlin</li>
                       <li>+ Javascript</li>
                       <li>+ Dart</li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
                 <div className="service__item-2">
@@ -124,18 +128,24 @@ const ServiceElementV3 = () => {
                       alt="Service Icon"
                     />
                     <h3 className="service__title-2 ">
-                      Backend Programming <br />
-                      Languages
+                      Customer Relationship Management <br />
                     </h3>
-                    {/* <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
-                    </p> */}
-                    <ul>
+                    <p>
+                      Effective customer relationship management is critical for
+                      businesses looking to improve their sales and
+                      profitability. Below are some of the key features and
+                      benefits of Microsoft's customer relationship management
+                      software:
+                    </p>
+                    <Link className="btn-view" href="/">
+                      View All Service{" "}
+                      <i className="fa-solid fa-arrow-right"></i>
+                    </Link>
+                    {/* <ul>
                       <li>+ .Net Core</li>
                       <li>+ Node js</li>
                       <li>+ Laravel</li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
                 <div className="service__item-2">
@@ -148,18 +158,24 @@ const ServiceElementV3 = () => {
                       alt="Service Icon"
                     />
                     <h3 className="service__title-2">
-                      Database and <br />
-                      Storages
+                      Automate and Secure Supply Chain Management
                     </h3>
-                    {/* <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
-                    </p> */}
-                    <ul>
+                    <p>
+                      Automating and securing supply chain management is
+                      essential for businesses looking to optimize inventory
+                      levels, reduce shortages, and maximize profitability.
+                      Below are some of the key features and benefits of
+                      Microsoft's supply chain management software:
+                    </p>
+                    <Link className="btn-view" href="/">
+                      View All Service{" "}
+                      <i className="fa-solid fa-arrow-right"></i>
+                    </Link>
+                    {/* <ul>
                       <li>+ MongoDB</li>
                       <li>+ Firebase</li>
                       <li>+ SQL Server</li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -178,17 +194,25 @@ const ServiceElementV3 = () => {
                       alt="Service Icon"
                     />
                     <h3 className="service__title-2">
-                      Platform <br />
+                      Human Resources <br />
                     </h3>
-                    {/* <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
-                    </p> */}
-                    <ul>
+                    <p>
+                      Human resources involve managing and organizing employee
+                      information, including tracking details such as
+                      experience, skills, education, training, and union
+                      membership. Additionally, expense management allows for
+                      the posting and tracking of employee expenses for
+                      reimbursement purposes. Key points include:
+                    </p>
+                    <Link className="btn-view" href="/">
+                      View All Service{" "}
+                      <i className="fa-solid fa-arrow-right"></i>
+                    </Link>
+                    {/* <ul>
                       <li>+ FLutter</li>
                       <li>+ React</li>
                       <li>+ Angular</li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
                 <div className="service__item-2">
@@ -201,20 +225,26 @@ const ServiceElementV3 = () => {
                       alt="Service Icon"
                     />
                     <h3 className="service__title-2 ">
-                      QA Tools <br />
+                      Project Management <br />
                     </h3>
-                    {/* <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
-                    </p> */}
-                    <ul>
+                    <p>
+                      Project management involves creating, managing, and
+                      tracking customer projects to ensure profitability and
+                      resource efficiency. Key aspects of project management
+                      include:
+                    </p>
+                    <Link className="btn-view" href="/">
+                      View All Service{" "}
+                      <i className="fa-solid fa-arrow-right"></i>
+                    </Link>
+                    {/* <ul>
                       <li>+ Seleniums</li>
                       <li>+ Cypress</li>
                       <li>+ Jest</li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
-                <div className="service__item-2">
+                {/* <div className="service__item-2">
                   <div>
                     <Image
                       priority
@@ -226,17 +256,14 @@ const ServiceElementV3 = () => {
                     <h3 className="service__title-2">
                       DevOps <br />
                     </h3>
-                    {/* <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
-                    </p> */}
+                  
                     <ul>
                       <li>+ Docker</li>
                       <li>+ Kubernetes</li>
                       <li>+ Azure DevOps</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

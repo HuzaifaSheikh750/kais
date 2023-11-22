@@ -78,23 +78,9 @@ const CreativeAgencyAward = () => {
   }, []);
   return (
     <>
-      <section className="award__area-7">
+      <section className="award__area-7" style={{paddingTop:"250px"}}>
         <div className="container">
-          <div className="row inherit_row">
-            <div className="col-xxl-12">
-              <div className="award__top-7">
-                <div className="award__counter fade_bottom_2">
-                  <h2 className="counter__number">25k</h2>
-                  <p>Project completed</p>
-                </div>
-                <div className="award-video-7">
-                  <video loop muted autoPlay playsInline>
-                    <source src="assets/video/video.mp4" type="video/mp4" />
-                  </video>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           <div className="award__btm-7">
             <div className="row">

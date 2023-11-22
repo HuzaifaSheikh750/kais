@@ -26,11 +26,13 @@ const StartupAgencyTestimonial = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="testimonial__sec-title text-anim">
-                <h2 className="sec-subtile-6">Testimonials</h2>
-                <h3 className="sec-title-6 title-anim">Clients feedback</h3>
+                {/* <h2 className="sec-subtile-6">Testimonials</h2> */}
+                <h3 className="sec-title-6 title-anim">
+                  Elevate your Financial Performance by Automating Your Finances
+                </h3>
                 <p>
-                  We are Trusted by 10,000+ global customers teams like have
-                  projects with this template
+                  Implement Dynamics 365 F&O and save time to focus on other
+                  business operations.
                 </p>
               </div>
             </div>
@@ -76,19 +78,22 @@ const StartupAgencyTestimonial = () => {
                       />
                       <div className="testimonial__info-4">
                         <h4 className="testimonial__feedback-4">
-                          Design Quality
+                          Enhance Financial Reporting
                         </h4>
                         <p>
-                          Our philosophy is built on people who are addicted on
-                          creating, learning, and growing together, which allows
-                          us to discover better others miss.
+                          Microsoft Dynamics 365 Finance provides real-time data
+                          insights and reporting capabilities to help businesses
+                          make informed decisions based on accurate financial
+                          data. The system offers a range of customizable
+                          reporting options and dashboards to enable businesses
+                          to analyze data and identify trends quickly.
                         </p>
-                        <h5 className="testimonial__name-4">
+                        {/* <h5 className="testimonial__name-4">
                           Jessica Sherlock
                         </h5>
                         <h6 className="testimonial__role-4">
                           Manager, Oitaka{" "}
-                        </h6>
+                        </h6> */}
                       </div>
                     </div>
                   </SwiperSlide>
@@ -103,14 +108,19 @@ const StartupAgencyTestimonial = () => {
                         alt="Testimonial Image"
                       />
                       <div className="testimonial__info-4">
-                        <h4 className="testimonial__feedback-4">Clean Code</h4>
+                        <h4 className="testimonial__feedback-4">
+                          Improve Cash Flow Management
+                        </h4>
                         <p>
-                          I am very glod happy with this theme, the website
-                          loads much faster than any other theme I have used so
-                          far clean code and responsive layout.
+                          With advanced cash flow management features, Microsoft
+                          Dynamics 365 Finance allows businesses to forecast
+                          cash flow, track cash balances, and manage cash
+                          transactions with ease. This helps businesses to
+                          manage their finances better, make informed investment
+                          decisions, and avoid cash flow disruptions.
                         </p>
-                        <h5 className="testimonial__name-4">Sharoon Kavin</h5>
-                        <h6 className="testimonial__role-4">CEO, Sharoon</h6>
+                        {/* <h5 className="testimonial__name-4">Sharoon Kavin</h5>
+                        <h6 className="testimonial__role-4">CEO, Sharoon</h6> */}
                       </div>
                     </div>
                   </SwiperSlide>
@@ -126,18 +136,20 @@ const StartupAgencyTestimonial = () => {
                       />
                       <div className="testimonial__info-4">
                         <h4 className="testimonial__feedback-4">
-                          Instant Support
+                          Optimize Resource Management
                         </h4>
                         <p>
-                          In the next time I hire Axtra as they helping
-                          innovators and brands through cultural insight,
-                          strategiccal vision, and innovation and look too
-                          beyond.
+                          The Resource Management module helps businesses manage
+                          their resources more effectively, from personnel to
+                          equipment and materials. By optimizing resource
+                          allocation and scheduling, businesses can improve
+                          productivity, reduce costs, and enhance their bottom
+                          line.
                         </p>
-                        <h5 className="testimonial__name-4">Sharly Mehroon</h5>
+                        {/* <h5 className="testimonial__name-4">Sharly Mehroon</h5>
                         <h6 className="testimonial__role-4">
                           Manager, Kavitan
-                        </h6>
+                        </h6> */}
                       </div>
                     </div>
                   </SwiperSlide>
@@ -153,23 +165,26 @@ const StartupAgencyTestimonial = () => {
                       />
                       <div className="testimonial__info-4">
                         <h4 className="testimonial__feedback-4">
-                          Design Quality
+                          Increase Collaboration and Productivity
                         </h4>
                         <p>
-                          Our philosophy is built on people who are addicted on
-                          creating, learning, and growing together, which allows
-                          us to discover better others miss.
+                          Microsoft Dynamics 365 Finance offers a range of
+                          collaborative tools and features, including shared
+                          workspaces and document management, to streamline
+                          business processes and improve productivity. This
+                          allows teams to work more efficiently, share
+                          information more easily, and make better decisions.
                         </p>
-                        <h5 className="testimonial__name-4">
+                        {/* <h5 className="testimonial__name-4">
                           Jessica Sherlock
                         </h5>
                         <h6 className="testimonial__role-4">
                           Manager, Oitaka{" "}
-                        </h6>
+                        </h6> */}
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide>
+                  {/* <SwiperSlide>
                     <div className="testimonial__slide-4">
                       <Image
                         priority
@@ -217,7 +232,7 @@ const StartupAgencyTestimonial = () => {
                         </h6>
                       </div>
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </div>
                 <div className="testimonial__btn-4">
                   <div

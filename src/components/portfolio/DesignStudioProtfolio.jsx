@@ -17,19 +17,24 @@ import Link from "next/link";
 const DesignStudioProtfolio = () => {
   return (
     <>
-      <section className="portfolio__area-2">
-        <div className="container g-0 line pt-100 pb-140">
+      <section className="portfolio__area-2" style={{marginBottom:"100px"}}>
+        <div className="container g-0  pt-100 pb-140" >
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper text-anim">
                 <div>
-                  <h2 className="title-anim sec-title-33">
-                    Selected <span>Projects</span>
+                  <h2 className="title-anim sec-title-6">
+                    Why choose KAISPE as Dynamics 365 Finance and Operations
+                    implementation partner
                   </h2>
                 </div>
-                <p className="sec-text">
-                  Worked with global brands & agency at the intersection of flat
-                  design and digital technology.
+                <p className="" style={{ fontSize: "20px" }}>
+                  As a leading Microsoft Dynamics 365 implementation partner,
+                  KAISPE has a strong reputation for delivering successful
+                  solutions that meet the unique needs of its clients. Here are
+                  some reasons why you may want to consider KAISPE as your
+                  implementation partner for Dynamics 365 Finance and
+                  Operations:
                 </p>
               </div>
             </div>
@@ -77,12 +82,16 @@ const DesignStudioProtfolio = () => {
                     <h2 className="sec-title">
                       {" "}
                       <Link href="/portfolio-details">
-                        Lionpro <span>Agency</span>
+                        Expertise: <span></span>
                       </Link>
                     </h2>
                     <p>
-                      We are passionate designers, developers and digital
-                      marketeers. We produce best projects that both ourselves
+                      KAISPE has a team of experienced consultants with in-depth
+                      knowledge of Microsoft Dynamics 365 Finance and Operations
+                      and its associated modules. They have implemented
+                      solutions for a wider range of businesses, from startups
+                      and mid-sized to large enterprises and across various
+                      industries.
                     </p>
                     <div className="btn-common-wrap">
                       <Link href="/portfolio-details" className="btn-common">
@@ -108,12 +117,17 @@ const DesignStudioProtfolio = () => {
                   <div className="slide-content">
                     <h2 className="sec-title">
                       <Link href="/portfolio-details">
-                        crodyflw <span>Website</span>
+                        Customer <span>Focus</span>
                       </Link>
                     </h2>
                     <p>
-                      We are passionate designers, developers and digital
-                      marketeers. We produce best projects that both ourselves
+                      Our D365 experts take a customer-focused approach to
+                      implementation, working closely with clients to understand
+                      their business requirements and tailor the solution to
+                      their specific needs. They prioritize communication and
+                      transparency throughout the implementation process to
+                      ensure that their clients are always informed and in
+                      control.
                     </p>
                     <div className="btn-common-wrap">
                       <Link href="/portfolio-details" className="btn-common">
@@ -140,13 +154,17 @@ const DesignStudioProtfolio = () => {
                     <h2 className="sec-title">
                       {" "}
                       <Link href="/portfolio-details">
-                        developers
-                        <span>digital</span>
+                        Project
+                        <span>Management</span>
                       </Link>
                     </h2>
                     <p>
-                      We are passionate designers, developers and digital
-                      marketeers. We produce best projects that both ourselves
+                      KAISPE has a structured approach to project management,
+                      with a focus on setting clear goals and timelines,
+                      managing risks, and ensuring that the project stays on
+                      track and within budget. They use industry best practices
+                      and proven methodologies to ensure that the project is
+                      completed on time and to a high standard.
                     </p>
                     <div className="btn-common-wrap">
                       <Link href="/portfolio-details" className="btn-common">
@@ -173,13 +191,16 @@ const DesignStudioProtfolio = () => {
                     <h2 className="sec-title">
                       {" "}
                       <Link href="/portfolio-details">
-                        Lionpro
-                        <span>marketeers</span>
+                        Support and
+                        <span>Maintenance</span>
                       </Link>
                     </h2>
                     <p>
-                      We are passionate designers, developers and digital
-                      marketeers. We produce best projects that both ourselves
+                      KAISPE offers ongoing support and maintenance services to
+                      help their clients keep their Dynamics 365 solutions
+                      running smoothly. They are available to help with any
+                      issues that may arise and can make updates and changes to
+                      the system as needed.
                     </p>
                     <div className="btn-common-wrap">
                       <Link href="/portfolio-details" className="btn-common">
@@ -206,12 +227,14 @@ const DesignStudioProtfolio = () => {
                     <h2 className="sec-title">
                       {" "}
                       <Link href="/portfolio-details">
-                        Lionpro <span>Agency</span>
+                        Technology <span>Expertise</span>
                       </Link>
                     </h2>
                     <p>
-                      We are passionate designers, developers and digital
-                      marketeers. We produce best projects that both ourselves
+                      In addition to Dynamics 365 implementation, KAISPE’s D365
+                      pro team also has expertise in other technologies that can
+                      complement and extend the capabilities of Dynamics 365,
+                      such as Power BI, Power Apps, and Azure.
                     </p>
                     <div className="btn-common-wrap">
                       <Link href="/portfolio-details" className="btn-common">

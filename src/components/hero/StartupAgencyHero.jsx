@@ -82,11 +82,10 @@ const StartupAgencyHero = () => {
                   alt="Arrow Icon"
                 />
                 <h1 className="hero__title-6 " ref={heroTitle}>
-                  Magical <br /> Axtra Startup Solution{" "}
+                Microsoft<br />Dynamics 365 <br/> Commerce{" "}
                 </h1>
                 <p ref={heroText}>
-                  Our team always reviews all previous methods with <br />{" "}
-                  models, and processes to determined
+                Drive Sales and Boost Profitability with Microsoft Dynamics 365 Commerce
                 </p>
                 <Link
                   className="btn-started btn-hover"

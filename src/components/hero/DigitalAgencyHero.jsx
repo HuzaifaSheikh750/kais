@@ -65,9 +65,9 @@ const DigitalAgencyHero = () => {
                     <i className="fa-solid fa-arrow-right"></i>
                   </span> */}
                 </Link>
-                <div className="hero__title-wrapper">
-                  <h1 className="hero__title" ref={heroTitle} style={{marginTop:"100px"}}>
-                    Our <br/>Solutions
+                <div className="">
+                  <h1 className="hero__title" ref={heroTitle} style={{marginTop:"0px"}}>
+                  Microsoft Dynamics <br/>365 Supply Chain
                   </h1>
                   {/* <p className="hero__sub-title" ref={heroSubTitle}>
                     With every single one of our clients, we bring forth deep
