@@ -61,7 +61,7 @@ const StartupAgencyFaq = () => {
               <div className="faq__sec-title text-anim">
                 <h2 className="sec-subtile-6">Expertise</h2>
                 <h3 className="sec-title-6 title-anim">
-                Key Features and Functionalities of Microsoft Dynamics 365 Finance
+                Why Choose KAISPE for Oracle Net Suite implementation and consulting?
                 </h3>
                 {/* <p>Grow brands through bold, strategic creative</p>
                 <Link className="btn-view" href="/about">
@@ -85,11 +85,11 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingOne"
                     >
-                      Human Resources: 
+                      Experience
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                      Microsoft Dynamics 365 HR is a comprehensive HR management solution that streamlines HR processes such as hiring, onboarding, payroll, benefits management, performance management, and employee engagement.
+                      KAISPE has extensive experience in Oracle NetSuite implementation and consulting, having worked with businesses of all sizes and across a range of industries. With their extensive platform knowledge, our team of experts and professionals can help you get the most out of your NetSuite investment.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -102,11 +102,11 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingTwo"
                     >
-                      Product Information: 
+                      Comprehensive Services: 
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                      Microsoft D365 Product Information Management helps businesses manage and centralize their product data, enabling them to create, update, and publish product information across all channels.
+                      KAISPE offers a range of services to support your NetSuite implementation, including project management, customization, data migration, training, and ongoing support. This indicates that we can offer complete assistance for your NetSuite project, from initial planning to post-implementation maintenance and support.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -119,11 +119,11 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingThree"
                     >
-                      General Ledger Functionality: 
+                      Tailored Solutions
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                      Microsoft Dynamics 365 General Ledger Functionality provides tools for managing a company financial transactions, including journal entries, account reconciliations, and financial reporting.
+                      Our consultants at KAISPE understand that every business is unique, and thats why we take a tailored approach to our NetSuite implementations. In order to provide solutions that are unique to our clients demands, we work together with them to fully comprehend their processes and individual needs.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -136,11 +136,11 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingFour"
                     >
-                      Accounts Receivable: 
+                      Results-driven Approach
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                      With Microsoft Dynamics 365 Accounts Receivable, businesses can manage and automate their invoicing processes, track customer payments, and streamline collections.
+                      At KAISPE, we are focused on delivering results for our clients. Our pro team is committed to helping you achieve your business goals through your NetSuite implementation, whether thats improving efficiency, reducing costs, or driving growth.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -153,11 +153,11 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingFour"
                     >
-                      Accounts Payable: 
+                      Strong Customer Service
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                      Microsoft Dynamics 365 Accounts Payable helps businesses manage vendor invoices, automate payment processing, and track vendor payments.
+                      Our customer support team is dedicated to giving our clients the best possible service. The team responds to inquiries, provides guidance, and addresses any issues that may arise during NetSuite implementation.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

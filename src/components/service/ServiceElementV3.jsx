@@ -102,7 +102,7 @@ const ServiceElementV3 = () => {
                     <h3 className="service__title-2">Financial Management</h3>
                     <p>
                       Effective financial management is essential for any
-                      business to succeed. With Microsoft's financial management
+                      business to succeed. With Microsoft financial management
                       software, you can make informed decisions and manage your
                       finances effectively. Below are some of the key features
                       and benefits:
@@ -134,7 +134,7 @@ const ServiceElementV3 = () => {
                       Effective customer relationship management is critical for
                       businesses looking to improve their sales and
                       profitability. Below are some of the key features and
-                      benefits of Microsoft's customer relationship management
+                      benefits of Microsoft customer relationship management
                       software:
                     </p>
                     <Link className="btn-view" href="/">
@@ -165,7 +165,7 @@ const ServiceElementV3 = () => {
                       essential for businesses looking to optimize inventory
                       levels, reduce shortages, and maximize profitability.
                       Below are some of the key features and benefits of
-                      Microsoft's supply chain management software:
+                      Microsofts supply chain management software:
                     </p>
                     <Link className="btn-view" href="/">
                       View All Service{" "}

@@ -85,14 +85,14 @@ const StartupAgencyFeature = () => {
                   processes, gain valuable insights, boost productivity, and
                   ensure security and compliance at every hour of work.
                 </p>
-                <a
+                <Link
                   href="/contact"
                   class="btn btn-primary"
                   style={{ display: "inline-block", margin: "0 auto" }}
                 >
                   Get Consultancy now!
                 
-                </a>
+                </Link>
 
                 <Image
                   priority

@@ -64,7 +64,7 @@ const CreativeAgencyAbout = () => {
                 />
               </div>
             </div>
-            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
               <div className="about__mid-7 text-anim">
                 <p>
                   Delays are the killer of any business in this outrageous
@@ -106,7 +106,7 @@ const CreativeAgencyAbout = () => {
                 /> */}
               </div>
             </div>
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+            {/* <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
               <div className="about__right-7">
                 <Image
                   priority
@@ -117,7 +117,7 @@ const CreativeAgencyAbout = () => {
                   data-speed="0.7"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

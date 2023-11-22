@@ -4,8 +4,11 @@ import { useEffect, useRef } from "react";
 import RootLayout from "@/components/common/layout/RootLayout";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
 import CustomerEngagementHero from "@/components/hero/CustomerEngagementHero";
-import DigitalMarketingPrice from "@/components/price/DigitalMarketingPrice";
 import CustomerENgagementAbout from "@/components/about/CustomerEngagementAbout";
+import DigitalAgencyService from "@/components/service/DigitalAgencyService";
+import CreativeAgencyService from "@/components/service/CreativeAgencyService";
+import ServiceElementV6 from "@/components/service/ServiceElementV6";
+import DigitalMarketingPrice from "@/components/price/DigitalMarketingPrice";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -53,13 +56,19 @@ const ServiceDetails = () => {
 
         <CustomerEngagementHero />
 
-        <DigitalMarketingPrice />
-        
+        {/* <DigitalMarketingPrice /> */}
+
+        <ServiceElementV6 />
+    
         <CustomerENgagementAbout />
 
+        <DigitalAgencyService />
+
+        <CreativeAgencyService />
 
 
-          <footer className="footer__area-2 pt-130">
+
+          {/* <footer className="footer__area-2 pt-130">
             <div className="container">
               <div className="footer__top-2 text-anim">
                 <div className="row">
@@ -91,54 +100,8 @@ const ServiceDetails = () => {
                 </div>
               </div>
             </div>
-          </footer>
+          </footer> */}
 
-
-          <section className="service__detail">
-            <div className="container g-0  pb-140">
-              <div className="line-3"></div>
-              <div className="row">
-                <div className="col-xxl-12">
-                  <div className="sec-title-wrapper">
-                    <h2 className="sec-title title-anim">Why Choose KAISPE</h2>
-                  </div>
-                </div>
-                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-                  <div className="service__detail-circle">
-                    <span></span>
-                  </div>
-                </div>
-                <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
-                  <div
-                    className=""
-                    style={{
-                      fontSize: "18px",
-                      fontFamily: "kanit, sans-serif",
-                    }}
-                  >
-                    <p>
-                      Your success is a top priority for us, and we make sure
-                      that our customers receive the maximum return on their
-                      investment. We offer flexible support offerings ranging
-                      from Basic to Advance, to Premium Customer Support. Each
-                      offering provides specific service levels and
-                      capabilities, from online case submission to phone
-                      support, that helps maintain your software solution.
-                    </p>
-                    <br />
-                    <p>
-                      Please check below a typical set of flexible support
-                      offerings available to you. To better suit your
-                      requirements, we can also mix and match the options to
-                      build a custom option for you:
-                    </p>
-
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
 
           <DigitalAgencyCTA />
         </RootLayout>

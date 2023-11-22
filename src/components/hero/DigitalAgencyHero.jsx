@@ -6,8 +6,6 @@ import Link from "next/link.js";
 import ArrowDownBig from "../../../public/assets/imgs/icon/arrow-down-big.png";
 import Hero1bg from "../../../public/assets/imgs/hero/1/1-bg.png";
 import Image from "next/image.js";
-import BlogElementV2 from "@/components/blog/BlogElementV2";
-
 
 const DigitalAgencyHero = () => {
   const heroTitle = useRef();
@@ -54,27 +52,40 @@ const DigitalAgencyHero = () => {
   }, []);
   return (
     <>
-      <section className="hero__area" style={{marginBottom:"80px"}}>
+      <section className="hero__area ">
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">
-              <div className="hero__content animation__hero_one">
-                <Link href="/service">
-                  
-                  {/* <span>
+              <div
+                className="hero__content animation__hero_one"
+                style={{ marginTop: "130px" }}
+              >
+                {/* <Link href="/service">
+                  Strategy, Design, Solution Development{" "}
+                  <span>
                     <i className="fa-solid fa-arrow-right"></i>
-                  </span> */}
-                </Link>
-                <div className="">
-                  <h1 className="hero__title" ref={heroTitle} style={{marginTop:"0px"}}>
-                  Microsoft Dynamics <br/>365 Supply Chain
+                  </span>
+                </Link> */}
+                <div className="hero__title-wrapper">
+                  <h1 className="hero__title" ref={heroTitle}>
+                    Oracle
+                    <br /> NetSuite
                   </h1>
-                  {/* <p className="hero__sub-title" ref={heroSubTitle}>
-                    With every single one of our clients, we bring forth deep
-                    passion for
-                    <span>creative problem solving</span>
-                    which is what we deliver.
-                  </p> */}
+                  <p
+                    className="hero__sub-title"
+                    ref={heroSubTitle}
+                    style={{ marginRight: "-100px" }}
+                  >
+                    <span>
+                      Simplify Your Business Management with Oracle NetSuite -
+                      The One-Stop Solution for Enterprises of All Sizes.
+                    </span>
+                    <br/>
+                    {/* Elevate your enterprise with Oracle NetSuite's all-inclusive
+                    array of solutions - Whether you're a small business or a
+                    Global corporation, we at KAISPE can help you grow and
+                    Succeed through a smooth implementation. */}
+                  </p>
                 </div>
                 <Image
                   priority
@@ -83,13 +94,13 @@ const DigitalAgencyHero = () => {
                   src={ArrowDownBig}
                   alt="Arrow Down Icon"
                 />
-                <div className="experience">
+                {/* <div className="experience">
                   <h2 className="title">25k+</h2>
                   <p>
                     Projects completed <br />
                     successfully
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -103,9 +114,6 @@ const DigitalAgencyHero = () => {
           className="hero1_bg"
         />
       </section>
-
-      <BlogElementV2 />
-
     </>
   );
 };

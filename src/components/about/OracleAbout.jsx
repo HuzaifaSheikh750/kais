@@ -25,7 +25,7 @@ const DigitalMarketingAbout = () => {
   }, []);
   return (
     <>
-      <section className="about__area-3">
+      <section className="about__area-3" style={{ marginBottom: "100px" }}>
         <div className="container pt-140 pb-110">
           <div className="row">
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -45,24 +45,26 @@ const DigitalMarketingAbout = () => {
               <div className="sec-title-wrapper">
                 {/* <h2 className="sec-sub-title title-anim">Who We Are</h2> */}
                 <h3 className="sec title-anim" style={{ color: "white" }}>
-                  Unlock the Power of Intelligent Financial Management with
-                  Microsoft Dynamics 365 Finance
+                  Implementation, Customization, and Rescues - Get it all under
+                  the Corporation of KAISPE for Oracle NetSuite
                 </h3>
               </div>
               <div className="sec-text-wrapper">
                 <div className="sec-text text-anim">
                   <p>
-                    Microsoft Dynamics 365 Finance is a cloud-based
-                    enterprise-level business application for accounting and
-                    financial management. With AI-powered features, you can
-                    easily forecast and make data-driven decisions while staying
-                    secure and compliant.
-                  </p>
-                  <p>
-                    Whether youre a growing or emerging startup or an
-                    established enterprise, Dynamics 365 Finance offers a
-                    scalable, intuitive, and impactful financial management
-                    system to help drive your business forward.
+                    KAISPE specializes in guiding businesses toward Oracle
+                    NetSuite success. Our expert consultants offer end-to-end
+                    services tailored to your unique needs. From understanding
+                    your business needs to implement the right suite scripts for
+                    your company, we have all covered. Over half of all NetSuite
+                    customers come to us after experiencing a failed
+                    implementation, which is why we take a comprehensive and
+                    agile approach to ensure your success. With a deep
+                    understanding of NetSuite implementation, we work closely
+                    with a custom plan for Oracle net suite development that
+                    aligns with your goals and integrates seamlessly with your
+                    IT infrastructure. Choose KAISPE for a tailored solution
+                    that streamlines your processes and accelerates growth.
                   </p>
                   <div className="btn_wrapper">
                     <Link

@@ -134,7 +134,7 @@ const DesignStudioFeature = () => {
                     />
                     <h3 className="feature__title">Finance</h3>
                     <p>
-                      Business Central's finance module simplifies financial
+                      Business Central finance module simplifies financial
                       management, including accounts receivable, accounts
                       payable, general ledger, and financial reporting. It
                       offers real-time insights into financial performance for
@@ -151,7 +151,7 @@ const DesignStudioFeature = () => {
                     />
                     <h3 className="feature__title">Service</h3>
                     <p>
-                      Business Central's service management features benefit
+                      Business Central service management features benefit
                       service-based businesses by enabling service request
                       tracking, contract management, and resource scheduling.
                       Its mobile app allows field technicians to access

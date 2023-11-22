@@ -61,11 +61,13 @@ const DigitalMarketingPrice = () => {
                   hello to a seamless customer experience. With Dynamics 365
                   Customer Engagement, you can manage your sales, marketing, and
                   customer service activities all in one place. Given the 5
-                  major components of the solution, it's like having a personal
+                  major components of the solution, its like having a personal
                   assistant that takes care of everything for you.
                 </p>
               </div>
             </div>
+
+            
 {/* 
             <div className="col-xxl-4 col-xl-4 col-lg-4">
               <div className="price__table">

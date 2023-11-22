@@ -64,46 +64,6 @@ const Team1 = () => {
   }
   return (
     <>
-      <section className="team__area-6">
-        <div className="container line pt-120">
-          <span className="line-3"></span>
-
-          <div className="row">
-            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8 offset-xxl-2 offset-xl-3">
-              <div className="sec-title-wrapper">
-                <h2 className="sec-title animation__char_come" ref={charAnim}>
-                  Custom Development
-                </h2>
-                <h4>
-                  Extend the functionality of your business applications with
-                  custom development services to further improve the ROI
-                </h4><br/>
-                <p>
-                  The decision to upgrade your current application version can
-                  be a difficult choice. KAISPE can help you leverage the
-                  upgrade benefits. We can show you how upgrades deliver
-                  improved functionality and other important features that you
-                  shouldn’t ignore, at least not long term.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container line pt-150">
-          <div className="line-3"></div>
-        </div>
-
-        <div className="team__join-btn">
-          <div className="btn_wrapper">
-            <Link href="/contact" className="wc-btn-primary btn-item btn-hover">
-              <span></span> Join our <br />
-              talented team
-              <i className="fa-solid fa-arrow-right"></i>
-            </Link>
-          </div>
-        </div>
-      </section>
       <section className="team__btm">
         <div className="container g-0 line">
           <span className="line-3"></span>
@@ -111,12 +71,18 @@ const Team1 = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper pt-130 pb-140 text-anim">
                 <h2 className="sec-title title-anim">
-                  Your digital products & services ensured by our talented team
+                  What is Oracle NetSuite?
                 </h2>
                 <p>
-                  A hybrid team with hybrid culture. More than 20 people,
-                  including designers, engineers, creatives, thinkers, creative
-                  table and media experts always looking from a new perspective.
+                  Oracle NetSuite is a SaaS-based application for business
+                  management. The NetSuite platform includes ERP, CRM, PSA, and
+                  e-commerce capabilities. It manages core functions, including
+                  finance and accounting, inventory, sales orders, and
+                  procurement. Customers can also add options, including CRM for
+                  sales, service and marketing automation, human resources for
+                  personnel records, performance management, payroll,
+                  professional services automation to plan and track projects,
+                  and omnichannel commerce for online and in-store sales.
                 </p>
               </div>
             </div>

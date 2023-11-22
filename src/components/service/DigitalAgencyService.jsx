@@ -115,237 +115,137 @@ const DigitalAgencyService = () => {
       <section className="service__area pt-110 pb-150">
         <div className="container">
           <div className="row">
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+            <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
               <div className="sec-title-wrapper wrap">
-                <h2 className="sec-sub-title title-anim">service</h2>
                 <h3 className="sec-title title-anim">
-                  Solution we <br />
-                  provide
+                  Dynamics 365 Customer Engagement Features & Modules
                 </h3>
-              </div>
-            </div>
-            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-              <div className="service__top-text text-anim">
-                <p>
-                  With every single one of our clients we bring forth a deep
-                  passion for <span>creative problem solving innovations</span>{" "}
-                  forward thinking brands boundaries
-                </p>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
-              <div className="service__top-btn">
-                <div className="btn_wrapper">
-                  <Link
-                    href="/service"
-                    className="btn-item wc-btn-secondary btn-hover"
-                  >
-                    <span></span> View <br />
-                    all services <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
 
           <div className="service__list-wrapper">
             <div className="row">
-              <div className="col-xxl-4 col-xl-4 col-lg-0 col-md-0">
-                <div className="service__img-wrapper">
-                  <Image
-                    priority
-                    width={280}
-                    style={{ height: "auto" }}
-                    src={Service11}
-                    alt="Service Image"
-                    className={
-                      activeImg == 1
-                        ? "service__img img-1 active"
-                        : "service__img img-1"
-                    }
-                  />
-                  <Image
-                    priority
-                    width={280}
-                    style={{ height: "auto" }}
-                    src={Service12}
-                    alt="Service Image"
-                    className={
-                      activeImg == 2
-                        ? "service__img img-2 active"
-                        : "service__img img-2"
-                    }
-                  />
-                  <Image
-                    priority
-                    width={280}
-                    style={{ height: "auto" }}
-                    src={Service13}
-                    alt="Service Image"
-                    className={
-                      activeImg == 3
-                        ? "service__img img-3 active"
-                        : "service__img img-3"
-                    }
-                  />
-                  <Image
-                    priority
-                    width={280}
-                    style={{ height: "auto" }}
-                    src={Service14}
-                    alt="Service Image"
-                    className={
-                      activeImg == 4
-                        ? "service__img img-4 active"
-                        : "service__img img-4"
-                    }
-                  />
-
-                  <span
-                    className={
-                      activeShape == 1
-                        ? "shapes shape-box-1 current"
-                        : "shapes shape-box-1"
-                    }
-                  ></span>
-                  <span
-                    className={
-                      activeShape == 2
-                        ? "shapes shape-box-2 current"
-                        : "shapes shape-box-2"
-                    }
-                  ></span>
-                  <span
-                    className={
-                      activeShape == 3
-                        ? "shapes shape-box-3 current"
-                        : "shapes shape-box-3"
-                    }
-                  ></span>
-                  <span
-                    className={
-                      activeShape == 4
-                        ? "shapes shape-box-4 current"
-                        : "shapes shape-box-4"
-                    }
-                  ></span>
-                </div>
-              </div>
-              <div className="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
+              <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                 <div className="service__list" ref={serviceList}>
-                  <Link
-                    href="/service-details"
-                    className={activeList == 1 ? "active" : ""}
-                    data-service="1"
-                  >
                     <div className="service__item animation_home1_service">
                       <div className="service__number">
                         <span>01</span>
                       </div>
                       <div className="service__title-wrapper">
-                        <h4 className="service__title">
-                          Web & Mobile Development
-                        </h4>
+                        <h4 className="service__title">Sales</h4>
                       </div>
-                      <div className="service__text">
-                        <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
-                        </p>
-                      </div>
-                      <div className="service__link">
-                        <p>
-                          <i className="fa-solid fa-arrow-right"></i>
+                      <div className="" style={{ width: "700px" }}>
+                        <p style={{ color: "grey" }}>
+                          This module, with its AI abilities, helps
+                          organizations manage their sales process, from lead
+                          generation to opportunity management and closing
+                          deals. It includes features such as lead and
+                          opportunity tracking, product catalogs, quote
+                          management, and sales forecasting.
                         </p>
                       </div>
                     </div>
-                  </Link>
+      
 
-                  <Link
-                    href="/service-details"
-                    className={activeList == 2 ? "active" : ""}
-                    data-service="2"
-                  >
                     <div className="service__item  animation_home1_service">
                       <div className="service__number">
                         <span>02</span>
                       </div>
                       <div className="service__title-wrapper">
-                        <h4 className="service__title">
-                          Interaction <br />
-                          Design
-                        </h4>
+                        <h4 className="service__title">Customer <br/>Service</h4>
                       </div>
-                      <div className="service__text">
-                        <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                      <div className="" style={{ width: "700px" }}>
+                        <p style={{ color: "grey" }}>
+                          It enables organizations to manage customer inquiries
+                          and requests through various channels such as phone,
+                          email, chat, and social media. It includes features
+                          such as knowledge management, case management, and
+                          service level agreement (SLA) management.
                         </p>
                       </div>
-                      <div className="service__link">
-                        <p>
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </p>
-                      </div>
+                     
                     </div>
-                  </Link>
-
-                  <Link
-                    href="/service-details"
-                    className={activeList == 3 ? "active" : ""}
-                    data-service="3"
-                  >
+                
                     <div className="service__item  animation_home1_service">
                       <div className="service__number">
                         <span>03</span>
                       </div>
                       <div className="service__title-wrapper">
-                        <h4 className="service__title">
-                          Digital <br />
-                          Maketing
-                        </h4>
+                        <h4 className="service__title">Field Service</h4>
                       </div>
-                      <div className="service__text">
-                        <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                      <div className="" style={{ width: "700px" }}>
+                        <p style={{ color: "grey" }}>
+                          It is designed for organizations that provide field
+                          services, such as installation, repair, and
+                          maintenance. It includes features such as scheduling
+                          and dispatching, resource management, work order
+                          management, and inventory management.
                         </p>
                       </div>
-                      <div className="service__link">
-                        <p>
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </p>
-                      </div>
+                    
                     </div>
-                  </Link>
-
-                  <Link
-                    href="/service-details"
-                    className={activeList == 4 ? "active" : ""}
-                    data-service="4"
-                  >
+                 
                     <div className="service__item  animation_home1_service">
                       <div className="service__number">
                         <span>04</span>
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Branding and Strategy
+                          Project Service Automation
                         </h4>
                       </div>
-                      <div className="service__text">
-                        <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                      <div className="" style={{ width: "700px" }}>
+                        <p style={{ color: "grey" }}>
+                          It is for organizations that manage projects for their
+                          customers, such as consulting firms or construction
+                          companies. It includes features such as project
+                          planning, resource management, time and expense
+                          tracking, and project analytics.
                         </p>
                       </div>
-                      <div className="service__link">
-                        <p>
-                          <i className="fa-solid fa-arrow-right"></i>
-                        </p>
-                      </div>
+                    
                     </div>
-                  </Link>
+                 
+                    <div className="service__item  animation_home1_service">
+                      <div className="service__number">
+                        <span>05</span>
+                      </div>
+                      <div className="service__title-wrapper">
+                        <h4 className="service__title">Marketing</h4>
+                      </div>
+                      <div className="" style={{ width: "700px" }}>
+                        <p style={{ color: "grey" }}>
+                          The marketing module is for organizations managing
+                          their marketing campaigns. From email marketing to
+                          social media and events, it includes features such as
+                          lead nurturing, segmentation, campaign management, and
+                          marketing analytics.
+                        </p>
+                      </div>
+                    
+                    </div>
+                  
+                    <div className="service__item  animation_home1_service">
+                      <div className="service__number">
+                        <span>06</span>
+                      </div>
+                      <div className="service__title-wrapper">
+                        <h4 className="service__title">Customer Insights</h4>
+                      </div>
+                      <div className="" style={{ width: "700px" }}>
+                        <p style={{ color: "grey" }}>
+                          This module helps organizations gain a better
+                          understanding of their customers by combining data
+                          from various sources such as Dynamics 365 and external
+                          sources. It includes features such as customer
+                          profiling, segmentation, and insights generation.
+                        </p>
+                      </div>
+                      
+                    </div>
+                
+
                 </div>
               </div>
             </div>

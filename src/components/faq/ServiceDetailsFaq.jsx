@@ -25,7 +25,7 @@ const ServiceDetailsFaq = () => {
                 <h2 className=" title-anim">
                 Microsoft Dynamics 365 Supply Chain: Benefits
                 </h2>
-                <p>It helps ensure business continuity by reducing costly downtime and minimizing errors in production. With its intuitive user interface and customizable mobile app, Microsoft Dynamics 365 Supply Chain empowers businesses to make data-driven decisions, streamline their operations, and stay competitive in today's rapidly changing market.</p>
+                <p>It helps ensure business continuity by reducing costly downtime and minimizing errors in production. With its intuitive user interface and customizable mobile app, Microsoft Dynamics 365 Supply Chain empowers businesses to make data-driven decisions, streamline their operations, and stay competitive in today rapidly changing market.</p>
 
                 <div className="faq__list">
                   <Accordion

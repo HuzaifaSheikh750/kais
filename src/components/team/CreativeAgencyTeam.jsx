@@ -75,10 +75,10 @@ const CreativeAgencyTeam = () => {
                   Microsoft Supply Chain Management Features
                 </h1>
                 <p style={{marginTop:"30px"}}>
-                  Microsoft's SCM solution offers a comprehensive set of
+                  Microsoft SCM solution offers a comprehensive set of
                   features to help businesses optimize their supply chain
                   operations and drive efficiencies across their entire
-                  organization. Moreover, Microsoft's SCM solution also offers
+                  organization. Moreover, Microsoft SCM solution also offers
                   advanced analytics and predictive capabilities, allowing
                   businesses to forecast demand, optimize inventory levels, and
                   mitigate supply chain risks. This helps businesses to reduce
