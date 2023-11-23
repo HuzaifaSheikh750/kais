@@ -4,10 +4,15 @@ import { useEffect, useRef } from "react";
 import RootLayout from "@/components/common/layout/RootLayout";
 import PowerPlatformHero from "@/components/hero/PowerPlatformHero";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
-
+import PowerPlatformSolution from "@/components/solution/PowerPlatformSolution";
 import Link from "next/link";
 import Image from "next/image";
 import animationCharCome from "@/lib/utils/animationCharCome";
+import PortfolioDetails1 from "@/components/portfolio/PortfolioDetails1";
+import ModernAgencySingleImage from "@/components/singleImage/ModernAgencySingleImage";
+import DigitalMarketingService from "@/components/service/DigitalMarketingService";
+import PowerPlatformFeatures from "@/components/feature/PowerPlatformFeatures";
+
 
 const ServiceDetails = () => {
   const charAnim = useRef();
@@ -50,6 +55,19 @@ const ServiceDetails = () => {
         <RootLayout header="header3" footer="footer3">
 
         <PowerPlatformHero />
+
+        <PowerPlatformSolution />
+
+        <PortfolioDetails1 />
+
+        <PowerPlatformFeatures />
+
+        <DigitalMarketingService />
+
+        <ModernAgencySingleImage />
+
+
+
 {/* 
           <footer className="footer__area-2 pt-130">
             <div className="container">

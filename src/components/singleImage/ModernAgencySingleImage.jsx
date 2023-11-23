@@ -64,16 +64,14 @@ const ModernAgencySingleImage = () => {
   }, []);
   return (
     <>
-      <div className="single__image-8 pt-130 pb-200 text-center sp-x">
+      <div className="single__image-8 cta__area cta__area-7 pt-130 pb-100 text-center sp-x" style={{marginBottom:"100px"}}>
         <div className="col-lg-10 text-center m-auto">
           <div className="singlecontent">
             <div className="hover_8_wrap">
-              <h2 className="tech_title fade_bottom_4" ref={hoverWrap}>
-                DESIGN AND <Link href="/portfolio">Technology</Link> STUDIO
-                TRANSFORMING YOUR <Link href="/portfolio">IDEAS</Link>
-                INTO REALITY
+              <h2 className="tech_title fade_bottom_4" ref={hoverWrap} style={{color:"white"}}>
+              Are you ready to take your business to new heights? 
               </h2>
-              <div
+              {/* <div
                 className="hover_8_img"
                 style={{
                   backgroundImage: "url(assets/imgs/portfolio/detail/7.jpg)",
@@ -86,42 +84,13 @@ const ModernAgencySingleImage = () => {
                   backgroundImage: "url(assets/imgs/portfolio/detail/6.jpg)",
                 }}
                 ref={hoverImage2}
-              ></div>
+              ></div> */}
             </div>
             <p className="single_dis pb-110 fade_bottom_4">
-              Creating a successful digital services for innovative start-up and{" "}
-              <br />
-              established businesses with trendy design front and back-end{" "}
-              <br /> development.
+            KAISPE, your trusted Microsoft solutions provider, is here to help. Whether you're looking to streamline your workflows, gain valuable insights, or accelerate your development time. KAISPE and Microsoft Power Platform have got you covered. 
+              So, what are you waiting for? Take the first step towards success. Contact KAISPE today to see how Microsoft Power Platform can transform your business! 
             </p>
-            <div className="single__thumb">
-              <video loop muted autoPlay playsInline>
-                <source src="assets/video/video.mp4" type="video/mp4" />
-              </video>
-              <Image
-                priority
-                style={{ width: "100%", height: "100%" }}
-                src={VideoFrame}
-                alt="image"
-                className="video-frame"
-              />
-              <Image
-                priority
-                width={113}
-                style={{ height: "auto" }}
-                className="svgstar"
-                src={SvgStar}
-                alt="shape"
-              />
-              <Image
-                priority
-                width={77}
-                style={{ height: "auto" }}
-                src={Shape24}
-                alt="shape"
-                className="shape-2"
-              />
-            </div>
+         
           </div>
         </div>
       </div>
