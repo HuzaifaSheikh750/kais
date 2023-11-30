@@ -159,7 +159,7 @@ const Portfolio1 = () => {
                           data-speed="0.4"
                         />
                         <div className="portfolio__content-6">
-                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                          <h4 className="portfolio__title-6">Lionpro </h4>
                           <h5 className="portfolio__date">02 May 2021</h5>
                         </div>
                       </Link>
