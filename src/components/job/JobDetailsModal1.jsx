@@ -47,7 +47,7 @@ const JobDetailsModal1 = ({ modal1, setModal1, setModal2 }) => {
               </div>
               <div className="input-apply">
                 <p>
-                  Tell us about a project that you worked on and felt proud of
+                  Tell us about a project that you worked on and felt 
                   it.
                 </p>
                 <textarea name="question-2" required></textarea>
