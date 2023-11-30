@@ -18,31 +18,18 @@ const StartupAgencyCTA = () => {
 
           <div className="cta__inner-4">
             <div className="row">
-              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+=
+              <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                 <div className="cta__content-4">
-                  <Image
-                    priority
-                    width={270}
-                    height={264}
-                    src={Thumb41}
-                    alt="Cta Image"
-                  />
-                </div>
-              </div>
-              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                <div className="cta__content-4">
-                  <h2 className="cta__title-4 title-anim">
-                  Need to get to finances right without a hassle?
+                  <h2 className="cta__title-4 title-anim" style={{paddingBottom:"50px"}}>
+                  Why choose Microsoft Dynamics 365 for Manufacturing
                   </h2>
                 </div>
               </div>
-              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                <div className="cta__content-4 text-anim">
-                  <p>
-                  Maintain the highest ROI by keeping your finances on track with Microsoft Dynamics 365 Finance and Operations.
-                  </p>
-                  <Link className="btn-started" href="/contact">
-                    Get a Quote{" "}
+              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                <div className="cta__content-4 text-anim" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+                  <Link className="btn-started" target="_blank" href="https://info.microsoft.com/rs/157-GQE-382/images/EN-CNTNT-ebook-FutureofManufacturing.pdf?aliId=419992286">
+                    Download{" "}
                     <span>
                       <i className="fa-solid fa-arrow-right"></i>
                     </span>

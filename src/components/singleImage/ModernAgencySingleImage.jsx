@@ -87,7 +87,7 @@ const ModernAgencySingleImage = () => {
               ></div> */}
             </div>
             <p className="single_dis pb-110 fade_bottom_4">
-            KAISPE, your trusted Microsoft solutions provider, is here to help. Whether you're looking to streamline your workflows, gain valuable insights, or accelerate your development time. KAISPE and Microsoft Power Platform have got you covered. 
+            KAISPE, your trusted Microsoft solutions provider, is here to help. Whether you are looking to streamline your workflows, gain valuable insights, or accelerate your development time. KAISPE and Microsoft Power Platform have got you covered. 
               So, what are you waiting for? Take the first step towards success. Contact KAISPE today to see how Microsoft Power Platform can transform your business! 
             </p>
          

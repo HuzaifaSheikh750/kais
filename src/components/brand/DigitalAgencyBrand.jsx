@@ -8,6 +8,9 @@ import Brand4 from "../../../public/assets/imgs/brand/4.png";
 import Brand5 from "../../../public/assets/imgs/brand/5.png";
 import Brand6 from "../../../public/assets/imgs/brand/6.png";
 import Image from "next/image";
+import ServiceDetail from "../../../public/assets/imgs/thumb/service-detail.png";
+import Shape6 from "../../../public/assets/imgs/icon/shape-6.png";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -62,127 +65,43 @@ const DigitalAgencyBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Internation Brands</h2>
-                <h3 className="sec-title title-anim">
+                {/* <h2 className="sec-sub-title title-anim">Internation Brands</h2> */}
+                {/* <h3 className="sec-title title-anim">
                   We are happy to work with global <br />
                   largest brands
-                </h3>
+                </h3> */}
+                <h2 className="sec-sub-title title-anim" style={{marginTop:"-20px", textAlign:"center"}}>
+                    Using KAISPE solutions and services you can improve supply chain planning capabilities across your organization, using new views that display all intercompany supply and demand. In addition, planned intercompany demand is visible for upstream companies within the organization, and can be considered in master planning. Planning and management are also supported with a full view of intercompany order-pegging using a multilevel pegging form.
+                </h2>
               </div>
             </div>
 
-            <div className="col-xxl-12">
-              <div className="brand__list">
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={97}
-                    height={67}
-                    src={Brand1}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={85}
-                    height={67}
-                    src={Brand2}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={114}
-                    height={64}
-                    src={Brand3}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={82}
-                    height={70}
-                    src={Brand4}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={115}
-                    height={67}
-                    src={Brand5}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={121}
-                    height={63}
-                    src={Brand6}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={114}
-                    height={64}
-                    src={Brand3}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={82}
-                    height={70}
-                    src={Brand4}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={115}
-                    height={67}
-                    src={Brand5}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={121}
-                    height={63}
-                    src={Brand6}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={97}
-                    height={67}
-                    src={Brand1}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={85}
-                    height={67}
-                    src={Brand2}
-                    alt="Brand Logo"
-                  />
-                </div>
+           
+          </div>
+
+          <div className="row">
+            <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10  mx-auto">
+              <div className="service__detail-img">
+                <Image
+                  priority
+                  width={960}
+                  style={{ height: "auto" }}
+                  src={ServiceDetail}
+                  alt="Service detail image"
+                />
+                <Image
+                  priority
+                  width={51}
+                  style={{ height: "auto" }}
+                  src={Shape6}
+                  alt="Service shape image"
+                  className="sd-shape"
+                />
               </div>
             </div>
           </div>
+
+
         </div>
       </section>
     </>

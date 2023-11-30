@@ -139,7 +139,7 @@ const StartupAgencyFeature = () => {
                     alt="Features Image"
                   />
                   <h5>
-                    Supercharge Your Business with Microsoft Power Platform's
+                    Supercharge Your Business with Microsoft Power Platforms
                     Low-Code Magic
                   </h5>
                   <p>
@@ -180,7 +180,7 @@ const StartupAgencyFeature = () => {
                   />
                   <h5>Deploy Faster and Rule the Market</h5>
                   <p>
-                    With Power Platform's visual development tools, businesses
+                    With Power Platforms visual development tools, businesses
                     can rapidly create and deploy custom applications and
                     workflows. It ultimately ends up reducing development time
                     and time-to-market.
@@ -204,10 +204,10 @@ const StartupAgencyFeature = () => {
                   />
                   <h5>
                     Unleash the Data Analytics Beast with Microsoft Power
-                    Platform's Power BI
+                    Platforms Power BI
                   </h5>
                   <p>
-                    Power Platform's Power BI component provides powerful data
+                    Power Platforms Power BI component provides powerful data
                     analytics and visualization capabilities. Finally, enabling
                     businesses to gain insights and make data-driven decisions.
                   </p>

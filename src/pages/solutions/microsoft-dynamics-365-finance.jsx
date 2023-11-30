@@ -95,7 +95,6 @@ const ServiceDetails = () => {
 
           <StartupAgencyTestimonial />
 
-          {/* <StartupAgencyFaq /> */}
           <StartupAgencyFaq />
 
           <DesignStudioProtfolio />

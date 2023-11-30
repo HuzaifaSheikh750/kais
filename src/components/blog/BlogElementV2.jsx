@@ -56,22 +56,22 @@ const BlogElementV2 = () => {
       <section className="blog__area-3 blog-v3 blog__animation">
         <div className="container line">
           <div className="line-3"></div>
-          {/* <div className="row ">
-              <div className="col-xxl-12">
-                <div className="sec-title-wrapper text-anim pt-130">
-                  <h2 className="sec-sub-title">Recent Blog</h2>
-                  <h3 className="sec-title title-anim">
-                    Read Updated <br />
-                    Journal
-                  </h3>
-                  <p>
-                    Read our blog and try to see everything from every
-                    perspective. Our passion lies in making everything accessible
-                    and aesthetic for everyone.{" "}
-                  </p>
-                </div>
+          <div className="row ">
+            <div className="col-xxl-12">
+              <div className="sec-title-wrapper text-anim pt-130">
+                <h2 className="sec-sub-title">Recent Blog</h2>
+                <h3 className="sec-title title-anim">
+                  Customers <br />
+                  Stories
+                </h3>
+                <p>
+                  Read our blog and try to see everything from every
+                  perspective. Our passion lies in making everything accessible
+                  and aesthetic for everyone.{" "}
+                </p>
               </div>
-            </div> */}
+            </div>
+          </div>
 
           <div className="row">
             <div className="col-xxl-6 col-xl-6 col-lg-6">
@@ -97,12 +97,12 @@ const BlogElementV2 = () => {
                   </Link>
                 </div>
                 <div className="blog__info-3">
-                  {/* <h4 className="blog__meta">
+                  <h4 className="blog__meta">
                     <Link href="/category">UI Design</Link> . 02 May 2019
-                  </h4> */}
+                  </h4>
                   <h5>
                     <Link href="/blog-details" className="blog__title-3">
-                      Microsoft Dynamics 365 Finance
+                      How to bring fold to your startup company with Axtra
                     </Link>
                   </h5>
                   <Link href="/blog-details" className="blog__btn">
@@ -138,12 +138,12 @@ const BlogElementV2 = () => {
                   </Link>
                 </div>
                 <div className="blog__info-3">
-                  {/* <h4 className="blog__meta">
+                  <h4 className="blog__meta">
                     <Link href="/category">UI Design</Link> . 02 May 2019
-                  </h4> */}
+                  </h4>
                   <h5>
                     <Link href="/blog-details" className="blog__title-3">
-                      Microsoft Dynamics 365 Supply Chain
+                      How to manage a talented and successful design team
                     </Link>
                   </h5>
                   <Link href="/blog-details" className="blog__btn">
@@ -178,12 +178,12 @@ const BlogElementV2 = () => {
                   </Link>
                 </div>
                 <div className="blog__info-3">
-                  {/* <h4 className="blog__meta">
+                  <h4 className="blog__meta">
                     <Link href="/category">UI Design</Link> . 02 May 2019
-                  </h4> */}
+                  </h4>
                   <h5>
                     <Link href="/blog-details" className="blog__title-3">
-                      Microsoft Dynamics 365 Commerce
+                      How to bring fold to your startup company with Axtra
                     </Link>
                   </h5>
                   <Link href="/blog-details" className="blog__btn">
@@ -219,55 +219,12 @@ const BlogElementV2 = () => {
                   </Link>
                 </div>
                 <div className="blog__info-3">
-                  {/* <h4 className="blog__meta">
+                  <h4 className="blog__meta">
                     <Link href="/category">UI Design</Link> . 02 May 2019
-                  </h4> */}
+                  </h4>
                   <h5>
                     <Link href="/blog-details" className="blog__title-3">
-                      Microsoft Dynamics-365 Business Central
-                    </Link>
-                  </h5>
-                  <Link href="/blog-details" className="blog__btn">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </span>
-                  </Link>
-                </div>
-               
-              
-              </article>
-            </div>
-
-            <div className="col-xxl-6 col-xl-6 col-lg-6">
-              <article className="blog__item-3">
-                <div className="blog__img-wrapper-3">
-                  <Link href="/blog-details">
-                    <div className="img-box">
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog32}
-                        alt="Blog Thumbnail"
-                      />
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog32}
-                        alt="Blog Thumbnail"
-                      />
-                    </div>
-                  </Link>
-                </div>
-                <div className="blog__info-3">
-                  {/* <h4 className="blog__meta">
-                    <Link href="/category">UI Design</Link> . 02 May 2019
-                  </h4> */}
-                  <h5>
-                    <Link href="/blog-details" className="blog__title-3">
-                    Microsoft Dynamics Customer Engagement
+                      How to manage a talented and successful design team
                     </Link>
                   </h5>
                   <Link href="/blog-details" className="blog__btn">
@@ -279,131 +236,6 @@ const BlogElementV2 = () => {
                 </div>
               </article>
             </div>
-
-            <div className="col-xxl-6 col-xl-6 col-lg-6">
-              <article className="blog__item-3">
-                <div className="blog__img-wrapper-3">
-                  <Link href="/blog-details">
-                    <div className="img-box">
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog32}
-                        alt="Blog Thumbnail"
-                      />
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog32}
-                        alt="Blog Thumbnail"
-                      />
-                    </div>
-                  </Link>
-                </div>
-                <div className="blog__info-3">
-                  {/* <h4 className="blog__meta">
-                    <Link href="/category">UI Design</Link> . 02 May 2019
-                  </h4> */}
-                  <h5>
-                    <Link href="/blog-details" className="blog__title-3">
-                    Microsoft Power Platform
-                    </Link>
-                  </h5>
-                  <Link href="/blog-details" className="blog__btn">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </span>
-                  </Link>
-                </div>
-              </article>
-            </div>
-
-            <div className="col-xxl-6 col-xl-6 col-lg-6">
-              <article className="blog__item-3">
-                <div className="blog__img-wrapper-3">
-                  <Link href="/blog-details">
-                    <div className="img-box">
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog32}
-                        alt="Blog Thumbnail"
-                      />
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog32}
-                        alt="Blog Thumbnail"
-                      />
-                    </div>
-                  </Link>
-                </div>
-                <div className="blog__info-3">
-                  {/* <h4 className="blog__meta">
-                    <Link href="/category">UI Design</Link> . 02 May 2019
-                  </h4> */}
-                  <h5>
-                    <Link href="/blog-details" className="blog__title-3">
-                     Microsoft Azure IOT
-                    </Link>
-                  </h5>
-                  <Link href="/blog-details" className="blog__btn">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </span>
-                  </Link>
-                </div>
-              </article>
-            </div>
-
-            <div className="col-xxl-6 col-xl-6 col-lg-6">
-              <article className="blog__item-3">
-                <div className="blog__img-wrapper-3">
-                  <Link href="/blog-details">
-                    <div className="img-box">
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog32}
-                        alt="Blog Thumbnail"
-                      />
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog32}
-                        alt="Blog Thumbnail"
-                      />
-                    </div>
-                  </Link>
-                </div>
-                <div className="blog__info-3">
-                  {/* <h4 className="blog__meta">
-                    <Link href="/category">UI Design</Link> . 02 May 2019
-                  </h4> */}
-                  <h5>
-                    <Link href="/blog-details" className="blog__title-3">
-                    Oracle NetSuite
-                    </Link>
-                  </h5>
-                  <Link href="/blog-details" className="blog__btn">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </span>
-                  </Link>
-                </div>
-              </article>
-            </div>
-
-
           </div>
         </div>
       </section>

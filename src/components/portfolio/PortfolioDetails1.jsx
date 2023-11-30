@@ -40,7 +40,7 @@ const PortfolioDetails1 = () => {
                       up with changing technologies and user demand.
                     </p>
                     <p>
-                      That's where Microsoft Power Platform comes in. With Power
+                      Thats where Microsoft Power Platform comes in. With Power
                       Platform, businesses can unlock the power of agility. They
                       get the power to modernize their processes and automate
                       wherever possible. By streamlining business processes,

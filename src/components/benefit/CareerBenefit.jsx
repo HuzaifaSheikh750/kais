@@ -1,42 +1,46 @@
 const CareerBenefit = () => {
   return (
     <>
-      <section className="career__benefits job__area">
-        <div className="container  g-0 pt-140 pb-150">
+      <section className="career__benefits">
+        <div className="container line g-0 pt-140 pb-150">
           <span className="line-3"></span>
 
           <div className="row">
             <div className="col-xxl-7 col-xl-7 col-lg-7">
-              <ul className="career__benefits-list" >
-                <li style={{color:"white"}}>
-                Power Platform  <br />
-                Integration
+              <ul className="career__benefits-list">
+                <li>
+                  Vacation & Paid <br />
+                  Time Off
                 </li>
-                <li style={{color:"white"}}>
-                Azure Logic  <br /> Apps
+                <li>
+                  Work-life <br /> Integration
                 </li>
-                <li style={{color:"white"}}>
-                Custom  <br />
-                Service
+                <li>
+                  Maternity/Paternity <br />
+                  Benefits
                 </li>
-                <li style={{color:"white"}}>
-                Excel <br /> Integration
+                <li>
+                  Personal <br /> Career Growth
                 </li>
-                <li style={{color:"white"}}>
-                OData <br />
+                <li>
+                  Learning & <br />
+                  Development
                 </li>
-                <li style={{color:"white"}}>
-                Consume External <br /> Web Services
+                <li>
+                  Healthy <br /> Food & Snacks
                 </li>
               </ul>
             </div>
             <div className="col-xxl-5 col-xl-5 col-lg-5">
               <div className="sec-title-wrapper">
-                {/* <h2 className="sec-title title-anim">
+                <h2 className="sec-title title-anim">
                   Global Perks & Benefits
-                </h2> */}
-                <p style={{color:"gre"}}>
-                For Microsoft applications integration, we consume several different integration patterns based on your specific requirements:
+                </h2>
+                <p>
+                  We want you to love working here as much as we do. To inspire
+                  our team to be creative, productive, and most importantly –
+                  feel valued as employees, we offer endless perks and
+                  de-stressors. How fun it is to unwind while at work!
                 </p>
               </div>
             </div>

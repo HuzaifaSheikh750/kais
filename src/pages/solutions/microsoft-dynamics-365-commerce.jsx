@@ -55,12 +55,8 @@ const ServiceDetails = () => {
       <main>
         <RootLayout header="header3" footer="footer3">
           <StartupAgencyHero />
-          
-          {/* <AboutHero /> */}
 
           <CommerceAbout />
-
-
 
           <section className="" style={{ marginBottom: "100px" }}>
             <div className="research__area wf_panel pt-150">

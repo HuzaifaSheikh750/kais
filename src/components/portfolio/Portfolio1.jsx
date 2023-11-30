@@ -98,7 +98,7 @@ const Portfolio1 = () => {
           <div className="zi-9">
             <div className="row">
               <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-6">
-                <div className="sec-title-wrapper portfolio__title-wrap-6">
+                {/* <div className="sec-title-wrapper portfolio__title-wrap-6">
                   <div className="">
                     <h2
                       className="sec-sub-title animation__char_come"
@@ -124,7 +124,117 @@ const Portfolio1 = () => {
                       ref={PortfolioTotal}
                     ></span>
                   </div>
+                </div> */}
+                  <div className="portfolio__wrapper-6">
+                  <div className="portfolio__list-6" ref={portfolioItemList}>
+                    <div className="portfolio__item-6" data-portfitem="1">
+                     <h4>microsoft</h4>
+                    </div>
+
+                    <div className="portfolio__item-6" data-portfitem="2">
+                      <Link href="/portfolio-details">
+                        <Image
+                          priority
+                          width={770}
+                          style={{ height: "auto" }}
+                          src={Portfilio62}
+                          alt="Portfolio Image"
+                          data-speed="0.4"
+                        />
+                        <div className="portfolio__content-6">
+                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                          <h5 className="portfolio__date">02 May 2021</h5>
+                        </div>
+                      </Link>
+                    </div>
+
+                    <div className="portfolio__item-6" data-portfitem="3">
+                      <Link href="/portfolio-details">
+                        <Image
+                          priority
+                          width={770}
+                          style={{ height: "auto" }}
+                          src={Portfilio63}
+                          alt="Portfolio Image"
+                          data-speed="0.4"
+                        />
+                        <div className="portfolio__content-6">
+                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                          <h5 className="portfolio__date">02 May 2021</h5>
+                        </div>
+                      </Link>
+                    </div>
+
+                    <div className="portfolio__item-6" data-portfitem="4">
+                      <Link href="/portfolio-details">
+                        <Image
+                          priority
+                          width={770}
+                          style={{ height: "auto" }}
+                          src={Portfilio64}
+                          alt="Portfolio Image"
+                          data-speed="0.4"
+                        />
+                        <div className="portfolio__content-6">
+                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                          <h5 className="portfolio__date">02 May 2021</h5>
+                        </div>
+                      </Link>
+                    </div>
+
+                    <div className="portfolio__item-6" data-portfitem="5">
+                      <Link href="/portfolio-details">
+                        <Image
+                          priority
+                          width={770}
+                          style={{ height: "auto" }}
+                          src={Portfilio65}
+                          alt="Portfolio Image"
+                          data-speed="0.4"
+                        />
+                        <div className="portfolio__content-6">
+                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                          <h5 className="portfolio__date">02 May 2021</h5>
+                        </div>
+                      </Link>
+                    </div>
+
+                    <div className="portfolio__item-6" data-portfitem="6">
+                      <Link href="/portfolio-details">
+                        <Image
+                          priority
+                          width={770}
+                          style={{ height: "auto" }}
+                          src={Portfilio66}
+                          alt="Portfolio Image"
+                          data-speed="0.4"
+                        />
+                        <div className="portfolio__content-6">
+                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                          <h5 className="portfolio__date">02 May 2021</h5>
+                        </div>
+                      </Link>
+                    </div>
+
+                    <div className="portfolio__item-6" data-portfitem="7">
+                      <Link href="/portfolio-details">
+                        <Image
+                          priority
+                          width={770}
+                          style={{ height: "auto" }}
+                          src={Portfilio67}
+                          alt="Portfolio Image"
+                          data-speed="0.4"
+                        />
+                        <div className="portfolio__content-6">
+                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
+                          <h5 className="portfolio__date">02 May 2021</h5>
+                        </div>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
+
               </div>
 
               <div className="col-xxl-8 col-xl-7 col-lg-7 col-md-6">

@@ -67,8 +67,7 @@ const Blog1 = () => {
             <div className="col-xxl-8 col-xl-7 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come" ref={charAnim}>
-                  We always <br />
-                  think
+                  Blogs <br />
                 </h2>
               </div>
             </div>

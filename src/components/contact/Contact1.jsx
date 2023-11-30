@@ -2,7 +2,7 @@ import animationCharCome from "@/lib/utils/animationCharCome";
 import animationWordCome from "@/lib/utils/animationWordCome";
 import { useEffect, useRef } from "react";
 
-const Contact1 = () => {
+const   Contact1 = () => {
   const charAnim = useRef();
   const wordAnim = useRef();
   useEffect(() => {

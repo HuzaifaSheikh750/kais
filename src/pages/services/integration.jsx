@@ -7,7 +7,7 @@ import ServiceDetailsWorkflow from "@/components/workflow/ServiceDetailsWorkflow
 import ServiceDetailsService from "@/components/service/ServiceDetailsService";
 import ServiceDetailsFaq from "@/components/faq/ServiceDetailsFaq";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
-import CareerBenefit from "@/components/benefit/CareerBenefit";
+import IntegrationBenefit from "@/components/benefit/IntegrationBenefit";
 import CreativeAgencyHero from "@/components/hero/CreativeAgencyHero";
 import CreativeAgencyAbout from "@/components/about/CreativeAgencyAbout";
 import CreativeAgencyService from "@/components/service/CreativeAgencyService";
@@ -89,7 +89,7 @@ const ServiceDetails = () => {
           <CreativeAgencyAbout />
 
 
-          <CareerBenefit />
+          <IntegrationBenefit />
 
 
           <div className="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1 pb-100">

@@ -1,74 +1,92 @@
 {
   "nav": [
     {
-      "nav_name": "Home",
-      "link": "/digital-marketing",
-      "type": "megamenu",
-      "full_width": false,
+      "nav_name": "Products",
+      "link": "/products",
+      "type": "dropdown",
       "sub_nav": [
+      
         {
-          "title": "Agency",
-          "data": [
+          "name": "TherapyCare",
+          "link": "https://tcare.kaispe.com/"
+        },
+        {
+          "name": "FlexPayroll",
+          "link": "https://flexpayroll.kaispe.com/"
+        },
+        {
+          "name": "Advance Worker Loan Management",
+          "link": "/service-v4"
+        },
+        {
+          "name": "KPoD-Prove of Delivery App",
+          "link": "https://kpod.kaispe.com/"
+        },
+        {
+          "name": "AutoRecruit",
+          "link": "https://ar.kaispe.com/"
+        },
+        {
+          "name": "Vendor Portal",
+          "link": "https://vp.kaispe.com/"
+        },
+        {
+          "name": "Customer Portal",
+          "link": "https://cp.kaispe.com/"
+        },
+        {
+          "name": "Expense Report",
+          "link": "https://expenseapp.kaispe.com/"
+        },
+        {
+          "name": "Microsoft Power Platform Add-Ons >",
+          "link": "/service",
+          "sub_dropdown_nav": [
             {
-              "name": "Digital Marketing",
-              "link": "/digital-marketing"
+              "name": "KAISPECare",
+              "link": "https://ecare.kaispe.com/"
             },
             {
-              "name": "Design Studio",
-              "link": "/design-studio"
+              "name": "HR Recruitment Automation",
+              "link": "/service-v2-dark"
             },
             {
-              "name": "Digital Agency",
-              "link": "/digital-agency"
+              "name": "Purchase Requisition",
+              "link": "https://prapp.kaispe.com/"
             },
             {
-              "name": "Creative Agency",
-              "link": "/creative-agency"
+              "name": "Employee Loan Management",
+              "link": "https://loanapp.kaispe.com/"
             },
             {
-              "name": "Startup Agency",
-              "link": "/startup-agency"
+              "name": "Employee Leave Management",
+              "link": "https://leaveapp.kaispe.com/"
             },
             {
-              "name": "Modern Agency",
-              "link": "/modern-agency"
+              "name": "Employee Training",
+              "link": "https://trainingapp.kaispe.com/"
             },
             {
-              "name": "Personal Portfolio",
-              "link": "/personal-portfolio"
+              "name": "Field Inspection",
+              "link": "https://inspectionapp.kaispe.com/"
+            },
+            {
+              "name": "Sales Field Automation",
+              "link": "https://salesapp.kaispe.com/"
             }
           ]
         },
         {
-          "title": "Agency Dark",
-          "data": [
+          "name": "Microsoft Azure IoT >",
+          "link": "/service",
+          "sub_dropdown_nav": [
             {
-              "name": "Digital Marketing",
-              "link": "/digital-marketing-dark"
+              "name": "Air Compressor Remote Monitoring",
+              "link": "/team"
             },
             {
-              "name": "Design Studio",
-              "link": "/design-studio-dark"
-            },
-            {
-              "name": "Digital Agency",
-              "link": "/digital-agency-dark"
-            },
-            {
-              "name": "Creative Agency",
-              "link": "/creative-agency-dark"
-            },
-            {
-              "name": "Startup Agency",
-              "link": "/startup-agency-dark"
-            },
-            {
-              "name": "Modern Agency",
-              "link": "/modern-agency-dark"
-            },
-            {
-              "name": "Personal Portfolio",
-              "link": "/personal-portfolio-dark"
+              "name": "IoT Device Management Portal",
+              "link": "/team-details"
             }
           ]
         }
@@ -102,6 +120,10 @@
         {
           "name": "Microsoft Power Platform",
           "link": "/solutions/microsoft-power-platform"
+        },
+        {
+          "name": "Microsoft Azure IoT",
+          "link": "/solutions/microsoft-azure-iot"
         },
         {
           "name": "Oracle NetSuite",
@@ -153,43 +175,43 @@
       "sub_nav": [
         {
           "name": "Manufacturing",
-          "link": "/team"
+          "link": "/focus-areas/manufacturing"
         },
         {
           "name": "Distribution",
-          "link": "/team-details"
+          "link": "/focus-areas/distribution"
         },
         {
           "name": "Retail",
-          "link": "/team-details"
+          "link": "/focus-areas/retail"
         },
         {
           "name": "Professional Services",
-          "link": "/team-details"
+          "link": "/focus-areas/professional-services"
         }
       ]
     },
 
     {
       "nav_name": "Company",
-      "link": "/service",
+      "link": "/company",
       "type": "dropdown",
       "sub_nav": [
         {
           "name": "Company",
-          "link": "/team"
+          "link": "/company"
         },
         {
           "name": "Values",
-          "link": "/team-details"
+          "link": "/company/values"
         },
         {
           "name": "Careers",
-          "link": "/team-details"
+          "link": "/company/careers"
         },
         {
-          "name": "Strategic Partners",
-          "link": "/team-details"
+          "name": "Strategic Partner",
+          "link": "/company/strategic-partners"
         }
       ]
     },
@@ -201,7 +223,7 @@
       "sub_nav": [
         {
           "name": "Blogs",
-          "link": "/blog"
+          "link": "/resources/blogs"
         },
         {
           "name": "News",
@@ -213,7 +235,7 @@
         },
         {
           "name": "Customer Stories",
-          "link": "/blog-details"
+          "link": "/customer-stories"
         },
         {
           "name": "Whitepapers",
