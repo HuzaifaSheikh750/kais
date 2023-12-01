@@ -5,14 +5,14 @@ import Portfilio32 from "../../../public/assets/imgs/portfolio/3/2.jpg";
 import Portfilio33 from "../../../public/assets/imgs/portfolio/3/3.jpg";
 import Portfilio34 from "../../../public/assets/imgs/portfolio/3/4.jpg";
 
-import iot from "../../../public/assets/imgs/portfolio/3/iot.png";
-import businessCentral from "../../../public/assets/imgs/portfolio/3/businessCentral.png";
-import oracle from "../../../public/assets/imgs/portfolio/3/oracle.png";
-import commerce from "../../../public/assets/imgs/portfolio/3/commerce.png";
-import finance from "../../../public/assets/imgs/portfolio/3/finance.png";
-import chain from "../../../public/assets/imgs/portfolio/3/chain.png";
-import customerEngagement from "../../../public/assets/imgs/portfolio/3/customerEngagement.png";
-import powerapps from "../../../public/assets/imgs/portfolio/3/powerapps.png";
+import iot from "../../../public/assets/imgs/solution/iot.png";
+import businessCentral from "../../../public/assets/imgs/solution//businessCentral.png";
+import oracle from "../../../public/assets/imgs/solution/oracle.png";
+import commerce from "../../../public/assets/imgs/solution/com.png";
+import finance from "../../../public/assets/imgs/solution/finance.png";
+import chain from "../../../public/assets/imgs/solution/chain.png";
+import customerEngagement from "../../../public/assets/imgs/solution//customerEngagement.png";
+import powerapps from "../../../public/assets/imgs/solution/powerapps.png"
 
 
 import Image from "next/image";
