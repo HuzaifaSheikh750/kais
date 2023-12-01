@@ -8,11 +8,11 @@ import Portfilio34 from "../../../public/assets/imgs/portfolio/3/4.jpg";
 import iot from "../../../public/assets/imgs/solution/iot.png";
 import businessCentral from "../../../public/assets/imgs/solution//businessCentral.png";
 import oracle from "../../../public/assets/imgs/solution/oracle.png";
-import commerce from "../../../public/assets/imgs/solution/com.png";
+import comm from "../../../public/assets/imgs/solution/comm.png";
 import finance from "../../../public/assets/imgs/solution/finance.png";
 import chain from "../../../public/assets/imgs/solution/chain.png";
 import customerEngagement from "../../../public/assets/imgs/solution//customerEngagement.png";
-import powerapps from "../../../public/assets/imgs/solution/powerapps.png"
+import power from "../../../public/assets/imgs/solution/power.png"
 
 
 import Image from "next/image";
@@ -129,7 +129,7 @@ const PortfolioElementV4 = () => {
                           priority
                           width={550}
                           style={{ height: "auto" }}
-                          src={commerce}
+                          src={comm}
                           alt="Portfolio Image"
                         />
                       </Link>
@@ -178,7 +178,7 @@ const PortfolioElementV4 = () => {
                           priority
                           width={550}
                           style={{ height: "auto" }}
-                          src={powerapps}
+                          src={power}
                           alt="Portfolio Image"
                         />
                       </Link>
