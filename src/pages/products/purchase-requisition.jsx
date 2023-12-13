@@ -65,7 +65,7 @@ const TeamDetails = () => {
                       employee purchase requisition processes. However, these
                       systems can often be complicated to use and overwhelming
                       for end-users due to their extensive feature sets.
-                      KAISPE's Purchase Requisition App is designed to simplify
+                      KAISPE Purchase Requisition App is designed to simplify
                       this process, offering a user-friendly and intuitive
                       cloud-based solution. With our app, customers can easily
                       raise, review, and manage purchase requisitions from a

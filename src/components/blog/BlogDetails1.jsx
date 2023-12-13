@@ -78,7 +78,7 @@ const BlogDetails1 = () => {
                   been unsuccessful.{" "}
                 </p>
                 <p>
-                  But in order that you may see whence all this born error of
+                 you may see whence all this born error of
                   those who accuse pleasure and praise pain, I will open the
                   whole matter, and explain the very things which were said by
                   that discoverer of truth and, as it were, the architect of a

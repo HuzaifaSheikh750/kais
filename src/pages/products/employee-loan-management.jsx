@@ -62,7 +62,7 @@ const TeamDetails = () => {
                       a Time.
                     </p>
                     <p>
-                      In today's world, financial stress is a common issue many
+                      In todays world, financial stress is a common issue many
                       employees face. Unexpected expenses like medical
                       emergencies, car repairs, or home repairs often leave
                       employees needing immediate financial assistance. However,

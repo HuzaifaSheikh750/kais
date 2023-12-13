@@ -62,7 +62,7 @@ const TeamDetails = () => {
                       business.
                     </p>
                     <p>
-                      Enhance your customers' experience with the KAISPE
+                      Enhance your customers experience with the KAISPE
                       Customer Portal, offering a comprehensive suite of
                       features. The features empower customers with real-time
                       access to the online order management portal, shipment

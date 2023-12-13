@@ -59,13 +59,13 @@ const TeamDetails = () => {
                     </p>
                     <p>
                       Empowering healthcare professionals is at the core of
-                      KAISPE Care's mission. By seamlessly integrating advanced
+                      KAISPE Care mission. By seamlessly integrating advanced
                       technology with the expertise of medical practitioners, we
                       revolutionize patient care. Our platform offers real-time
                       insights, streamlining workflows, and informed
                       decision-making. Through intuitive interfaces and
                       predictive analytics, KAISPE Care enhances diagnostics and
-                      treatment planning. It's more than just a tool; it's a
+                      treatment planning. Its more than just a tool; its a
                       supportive companion for healthcare professionals,
                       promoting collaboration and reducing burnout. With KAISPE
                       Care, we bridge the gap between cutting-edge innovation
