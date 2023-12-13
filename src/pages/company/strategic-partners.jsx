@@ -1,11 +1,9 @@
 
 import RootLayout from "@/components/common/layout/RootLayout";
-import ProfesisonalHero from "@/components/hero/ProfesisonalHero";
-import ProfessionalAbout from "@/components/about/ProfessionalAbout";
-import ProfessionlBanner from "@/components/cta/ProfessionlBanner"; 
-import ProfessionalContent from "@/components/brand/ProfessionalContent";
-
-
+import PartnerHero from "@/components/hero/PartnerHero";
+import Partners from "@/components/brand//Partners";
+import PartnerFeaures from "@/components/feature/PartnerFeaures";
+import PartnerCTA from "@/components/cta/PartnerCTA"; 
 
 import Head from "next/head";
 
@@ -19,10 +17,10 @@ const About = () => {
       </Head>
       <main>
         <RootLayout header="header4" footer="footer3">
-        <ProfesisonalHero />
-        <ProfessionalAbout />
-        <ProfessionlBanner />
-        <ProfessionalContent />
+        <PartnerHero />
+        <PartnerFeaures />
+        <Partners />
+        <PartnerCTA />
         </RootLayout>
       </main>
     </div>

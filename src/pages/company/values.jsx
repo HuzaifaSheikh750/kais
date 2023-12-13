@@ -1,11 +1,11 @@
 
 import RootLayout from "@/components/common/layout/RootLayout";
-import ProfesisonalHero from "@/components/hero/ProfesisonalHero";
+import ValueHero from "@/components/hero/ValueHero";
 import ProfessionalAbout from "@/components/about/ProfessionalAbout";
 import ProfessionlBanner from "@/components/cta/ProfessionlBanner"; 
 import ProfessionalContent from "@/components/brand/ProfessionalContent";
-
-
+import TeamDetails1 from "@/components/team/TeamDetails1";
+import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
 
 import Head from "next/head";
 
@@ -19,10 +19,9 @@ const About = () => {
       </Head>
       <main>
         <RootLayout header="header4" footer="footer3">
-        <ProfesisonalHero />
-        <ProfessionalAbout />
-        <ProfessionlBanner />
-        <ProfessionalContent />
+        <ValueHero />
+        <TeamDetails1 />
+        <DigitalAgencyCTA />
         </RootLayout>
       </main>
     </div>

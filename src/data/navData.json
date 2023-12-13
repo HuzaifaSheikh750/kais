@@ -1,99 +1,103 @@
 {
   "nav": [
     {
-      "nav_name": "Products",
-      "link": "/products",
-      "type": "dropdown",
+      "nav_name": "PRODUCTS",
+      "link": "/solutions",
+      "type": "megamenu",
+      "full_width": false,
       "sub_nav": [
-      
         {
-          "name": "TherapyCare",
-          "link": "https://tcare.kaispe.com/"
-        },
-        {
-          "name": "FlexPayroll",
-          "link": "https://flexpayroll.kaispe.com/"
-        },
-        {
-          "name": "Advance Worker Loan Management",
-          "link": "/service-v4"
-        },
-        {
-          "name": "KPoD-Prove of Delivery App",
-          "link": "https://kpod.kaispe.com/"
-        },
-        {
-          "name": "AutoRecruit",
-          "link": "https://ar.kaispe.com/"
-        },
-        {
-          "name": "Vendor Portal",
-          "link": "https://vp.kaispe.com/"
-        },
-        {
-          "name": "Customer Portal",
-          "link": "https://cp.kaispe.com/"
-        },
-        {
-          "name": "Expense Report",
-          "link": "https://expenseapp.kaispe.com/"
-        },
-        {
-          "name": "Microsoft Power Platform Add-Ons >",
-          "link": "/service",
-          "sub_dropdown_nav": [
+          "title": "Products",
+          "data": [
             {
-              "name": "KAISPECare",
-              "link": "https://ecare.kaispe.com/"
+              "name": "TherapyCare",
+              "link": "/products/theraphyCare"
             },
             {
-              "name": "HR Recruitment Automation",
-              "link": "/service-v2-dark"
+              "name": "FlexPayroll",
+              "link": "/products/flexPayroll"
             },
             {
-              "name": "Purchase Requisition",
-              "link": "https://prapp.kaispe.com/"
+              "name": "Advance Worker Loan Management",
+              "link": "/products/advanced-worker-loan-management"
             },
             {
-              "name": "Employee Loan Management",
-              "link": "https://loanapp.kaispe.com/"
+              "name": "KPoD-Prove of Delivery App",
+              "link": "/products/kpod-proof-of-delivery"
             },
             {
-              "name": "Employee Leave Management",
-              "link": "https://leaveapp.kaispe.com/"
+              "name": "AutoRecruit",
+              "link": "/products/autoRecruite"
             },
             {
-              "name": "Employee Training",
-              "link": "https://trainingapp.kaispe.com/"
+              "name": "Vendor Portal",
+              "link": "/products/vendor-portal"
             },
             {
-              "name": "Field Inspection",
-              "link": "https://inspectionapp.kaispe.com/"
+              "name": "Customer Portal",
+              "link": "/products/customer-portal"
             },
             {
-              "name": "Sales Field Automation",
-              "link": "https://salesapp.kaispe.com/"
+              "name": "Expense Report",
+              "link": "/products/expense-report"
             }
           ]
         },
         {
-          "name": "Microsoft Azure IoT >",
-          "link": "/service",
-          "sub_dropdown_nav": [
+          "title": "Microsoft Power Platform",
+          "data": [
+             {
+              "name": "KAISPECare",
+              "link": "/products/kaispeCare"
+            },
+            {
+              "name": "HR Recruitment Automation",
+              "link": "/products/hr-recruitment-automation"
+            },
+            {
+              "name": "Purchase Requisition",
+              "link": "/products/purchase-requisition"
+            },
+            {
+              "name": "Employee Loan Management",
+              "link": "/products/employee-loan-management"
+            },
+            {
+              "name": "Employee Leave Management",
+              "link": "/products/employee-leave-management"
+            },
+            {
+              "name": "Employee Training",
+              "link": "/products/employee-training"
+            },
+            {
+              "name": "Field Inspection",
+              "link": "/products/field-inspection"
+            },
+            {
+              "name": "Sales Field Automation",
+              "link": "/products/sales-field-automation"
+            }
+          ]
+        },
+        {
+          "title": "Microsoft Azure IoT",
+          "data": [
             {
               "name": "Air Compressor Remote Monitoring",
-              "link": "/team"
+              "link": "/products/air-compressor-remote-monitoring"
             },
             {
               "name": "IoT Device Management Portal",
-              "link": "/team-details"
+              "link": "/products/iot-device-management-portal"
             }
           ]
         }
       ]
     },
+
     {
-      "nav_name": "Solutions",
+      "nav_name": "SOLUTIONS",
       "link": "/solutions",
       "type": "dropdown",
       "sub_nav": [
@@ -133,7 +137,7 @@
     },
 
     {
-      "nav_name": "Services",
+      "nav_name": "SERVICES",
       "link": "/services  ",
       "type": "dropdown",
       "sub_nav": [
@@ -169,7 +173,7 @@
     },
 
     {
-      "nav_name": "Focus Areas",
+      "nav_name": "FOCUS AREAS",
       "link": "/service",
       "type": "dropdown",
       "sub_nav": [
@@ -193,7 +197,7 @@
     },
 
     {
-      "nav_name": "Company",
+      "nav_name": "COMPANY",
       "link": "/company",
       "type": "dropdown",
       "sub_nav": [
@@ -217,7 +221,7 @@
     },
 
     {
-      "nav_name": "Resources",
+      "nav_name": "RESOURCES",
       "link": "blog",
       "type": "dropdown",
       "sub_nav": [
